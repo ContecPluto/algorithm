@@ -19,8 +19,14 @@ for num in range(10):
     for i in range(2, len(arr)-2):
         for j in range(arr[i], 0, -1):
             if j > arr[i-2] and j > arr[i-1] and j > arr[i+1] and j > arr[i+2]:
-                count += 1 
+                count += 1
+
+    # result = 0
+    # for i in range(2,len(arr)-2 ):
+    #     MAX = max(arr[i-2], arr[i-1], arr[i+1], arr[i+2])
+    #     if MAX < arr[i]:
+    #         result += arr[i] - MAX
 
 
-    print(f'#{num+1} {count}')
-
+    print('#', num+1, ' ',  count, sep='')
+    # print('#{} {}'.format(num+1, result))
