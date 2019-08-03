@@ -23,7 +23,7 @@ for num in range(T):
                 break
 
     #셋으로 변환하여 중복값을 없애고 길이로서 몇번을 충전소에 들렸는지 확인합니다.
-    print(result)
+    # print(result)
     result = len(set(result))
 
 
