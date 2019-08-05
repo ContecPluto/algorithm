@@ -17,16 +17,13 @@ for num in range(T):
 
     #도착하지못한 배열에 0을 할당하기 위해 빈 리스트로 바꿔줄것입니다.
     for i in range(0, len(result)-1):
-        if result[i] == result[i+1]:
-            if result[i] + K < N:
-                result = []
-                break
+        if result[i] == result[i+1] and result[i] + K < N:
+            result = []
+            break
 
     #셋으로 변환하여 중복값을 없애고 길이로서 몇번을 충전소에 들렸는지 확인합니다.
     # print(result)
     result = len(set(result))
-
-
 
     print('#{} {}'.format(num+1, result))
 
