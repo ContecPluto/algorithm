@@ -11,4 +11,5 @@ for num in range(T):
             my_max = arr[i]
         if arr[i] < my_min:
             my_min = arr[i]
+            
     print('#{} {}'.format(num+1, my_max-my_min))
