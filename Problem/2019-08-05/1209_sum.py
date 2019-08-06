@@ -1,14 +1,16 @@
 import sys
 sys.stdin = open('1209.txt', 'r')
 
-for num in range(10):
+for num in range(1,11):
     result = 0
-    arr = []
+    # arr = []
     x_sum, y_sum, cross_sum, cross_sum2 = 0, 0, 0, 0
     N = int(input())
 
-    for i in range(100):
-       arr.append(list(map(int, input().split())))
+    # for i in range(100):
+    #    arr.append(list(map(int, input().split())))
+
+    arr=[list(map(int,input().split())) for _ in range(100)]
 
     for x in range(len(arr)):
         cross_sum += arr[x][x]
@@ -20,4 +22,6 @@ for num in range(10):
         x_sum, y_sum = 0, 0
 
     result = max(cross_sum,cross_sum2,result)
-    print('#{} {}'.format(num+1, result))
+    print('#{} {}'.format(num, result))
+    
+    arr.reverse()
