@@ -1,17 +1,15 @@
 import sys
-import time
 
-sys.stdin = open('10815.txt','r')
+sys.stdin = open('10815.txt', 'r')
 sang = input()
 sang_card = list(map(int,input().split()))
 answer = int(input())
 answer_card = input()
 
-for i in sang_card:   
+for i in sang_card:
     answer_card = answer_card.replace(str(i), '1')
-answer_card = answer_card.replace('-', '')
-answer_card = list(map(int,answer_card.split()))
-answer_card = [0 if answer_card[i] > 1 else 1 for i in range(answer) ]
+answer_card = list(map(abs, map(int, answer_card.split())))
+answer_card = [0 if answer_card[i] > 1 else 1 for i in range(answer)]
 print(answer_card)
 
 
@@ -21,9 +19,9 @@ print(answer_card)
 # answer = int(input())
 # answer_card = list(map(int,input().split()))
 # # print(len(sang_card))
-# sang_card.sort()
-# result = [0]*answer
-
+# # sang_card.sort()
+# # result = [0]*answer
+#
 # for i in range(answer):
 #     # print(answer_card)
 #     pop_card = answer_card.pop()
@@ -33,9 +31,8 @@ print(answer_card)
 #             del sang_card[j]
 #             break
 #     else:
-#         answer_card.insert(i, 0)        
+#         answer_card.insert(i, 0)
 # print(answer_card)
-
 
 # for i in range(len(answer_card)):
 #     s,l = 0 , sang
@@ -44,8 +41,8 @@ print(answer_card)
 #         result[s] += 1
 #     elif sang_card[l-1] == answer_card[i]:
 #         result[answer-1] += 1
-#     else:        
-#         while s != c:            
+#     else:
+#         while s != c:
 #             if answer_card[i] == sorted(sang_card)[c]:
 #                 # print('찾음', i)
 #                 result[i] += 1

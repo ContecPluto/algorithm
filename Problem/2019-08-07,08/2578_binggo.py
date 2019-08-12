@@ -1,10 +1,10 @@
 import sys
 sys.stdin = open('2578.txt', 'r')
 
-binggo = []
+binggo = []         #
 mc = []
 count = [0]*25
-x_bin,y_bin, cross, cross2 =0,0,0,0
+x_bin, y_bin, cross, cross2 =0, 0, 0, 0
 n_count = 0
 b_count = 0
 
@@ -20,7 +20,7 @@ for _ in range(5):
 
 
 # print('시작')
-for idx,number in enumerate(mc):
+for idx, number in enumerate(mc):
     n_count += 1
     count[binggo.index(number)] += 1
     # print(count)
