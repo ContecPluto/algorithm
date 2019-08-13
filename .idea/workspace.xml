@@ -2,20 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a0d7c36-e2b9-40ca-87e5-b03fdc391cd3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Problem/2019-08-12/1216.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/2019-08-12/1946.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/2019-08-12/4522.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/2019-08-12/4579.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/2019-08-12/4861.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/2019-08-12/4864.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/2019-08-12/4865.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/jungol/143.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/jungol/146.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem/2019-08-07,08/10163_paper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problem/2019-08-07,08/10163_paper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem/2019-08-07,08/10815_Number_card.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problem/2019-08-07,08/10815_Number_card.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem/2019-08-07,08/2578_binggo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problem/2019-08-07,08/2578_binggo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem/2019-08-07,08/4012_cook.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problem/2019-08-07,08/4012_cook.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TIL/2019-07-29_Array01.py" beforeDir="false" afterPath="$PROJECT_DIR$/TIL/array/2019-07-29_Array01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TIL/2019-07-29_Grabity.py" beforeDir="false" afterPath="$PROJECT_DIR$/TIL/array/2019-07-29_Grabity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TIL/2019-07-29_baby_gin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TIL/array/2019-07-29_baby_gin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TIL/2019-08-05_Array02.py" beforeDir="false" afterPath="$PROJECT_DIR$/TIL/array/2019-08-05_Array02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TIL/2019-08-05_Array03.py" beforeDir="false" afterPath="$PROJECT_DIR$/TIL/array/2019-08-05_Array03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TIL/2019-08-05_BitsArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/TIL/array/2019-08-05_BitsArray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TIL/2019-08-05_Selection_Sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/TIL/array/2019-08-05_Selection_Sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TIL/2019-08-05_bit.py" beforeDir="false" afterPath="$PROJECT_DIR$/TIL/array/2019-08-05_bit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TIL/2019-08-05_diag_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/TIL/array/2019-08-05_diag_array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problem/2019-08-12/1989_palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problem/2019-08-12/1989_palindrome.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,35 +24,35 @@
     <session id="-195355788">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="28" />
-          <entry key="txt" value="12" />
+          <entry key="py" value="68" />
+          <entry key="txt" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="28" />
+          <entry key="PLAIN_TEXT" value="31" />
+          <entry key="Python" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="py" value="12795" />
+          <entry key="py" value="16869" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="12795" />
+          <entry key="Python" value="16869" />
         </counts>
       </usages-collector>
     </session>
@@ -63,28 +60,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/1221_GNS.py">
+        <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/4522.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="133">
+              <caret line="7" column="112" selection-start-line="7" selection-start-column="104" selection-end-line="7" selection-end-column="112" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/1221.txt">
+        <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/1946.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            <state relative-caret-position="329">
+              <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="22" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Problem/2019-08-07,08/4012_cook.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/1215.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="21" />
+            <state relative-caret-position="228">
+              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/1946.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/4861.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -92,44 +107,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/1989_palindrome.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/4579.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Problem/jungol/146.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
               <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problem/D3/1216_palindrome.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Problem/jungol/143.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state>
+              <caret selection-end-line="6" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problem/D3/1216_pali.py">
+        <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/1216.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problem/2019-08-07,08/4012.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="4" selection-start-line="3" selection-end-line="3" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problem/2019-08-07,08/cook_study.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="361">
+              <caret line="19" column="53" lean-forward="true" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -147,6 +162,7 @@
     <findStrings>
       <find>2</find>
       <find>1</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,19 +183,29 @@
         <option value="$PROJECT_DIR$/Problem/2019-08-07,08/10163_paper.py" />
         <option value="$PROJECT_DIR$/TIL/string/ASCII.py" />
         <option value="$PROJECT_DIR$/Problem/2019-08-07,08/10815_Number_card.py" />
-        <option value="$PROJECT_DIR$/Problem/2019-08-12/1989_palindrome.py" />
         <option value="$PROJECT_DIR$/TIL/string/String01.py" />
         <option value="$PROJECT_DIR$/TIL/re_fuction.py" />
         <option value="$PROJECT_DIR$/Problem/2019-08-12/1221_GNS.py" />
         <option value="$PROJECT_DIR$/Problem/2019-08-07,08/cook_study.py" />
         <option value="$PROJECT_DIR$/Problem/2019-08-07,08/4012_cook.py" />
+        <option value="$PROJECT_DIR$/Problem/2019-08-12/4864.py" />
+        <option value="$PROJECT_DIR$/Problem/2019-08-12/1989_palindrome.py" />
+        <option value="$PROJECT_DIR$/Problem/2019-08-12/4865.py" />
+        <option value="$PROJECT_DIR$/Problem/2019-08-12/4579.py" />
+        <option value="$PROJECT_DIR$/Problem/2019-08-12/1215.py" />
+        <option value="$PROJECT_DIR$/Problem/2019-08-12/4861.py" />
+        <option value="$PROJECT_DIR$/Problem/2019-08-12/1216.py" />
+        <option value="$PROJECT_DIR$/Problem/2019-08-12/4522.py" />
+        <option value="$PROJECT_DIR$/Problem/2019-08-12/1946.py" />
+        <option value="$PROJECT_DIR$/Problem/jungol/146.py" />
+        <option value="$PROJECT_DIR$/Problem/jungol/143.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="260" />
+    <option name="x" value="259" />
     <option name="y" value="20" />
-    <option name="width" value="1544" />
+    <option name="width" value="1545" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectView">
@@ -187,7 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,19 +229,13 @@
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="Problem" type="462c0819:PsiDirectoryNode" />
-              <item name="2019-08-07,08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="Problem" type="462c0819:PsiDirectoryNode" />
-              <item name="D2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="Problem" type="462c0819:PsiDirectoryNode" />
               <item name="D3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="jungol" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -227,6 +246,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,50 +270,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.4012_cook">
-    <configuration name="1216_pali" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/D3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/D3/1216_pali.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1216_palindrome" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/D3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/D3/1216_palindrome.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1221_GNS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.143">
+    <configuration name="1216" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -305,7 +283,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-08-12/1221_GNS.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-08-12/1216.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -314,7 +292,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4012_cook" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="143" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -322,11 +300,74 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-08-07,08" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/jungol" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-08-07,08/4012_cook.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/jungol/143.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="146" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/jungol" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/jungol/146.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1946" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-08-12" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-08-12/1946.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4522" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-08-12" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-08-12/4522.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -356,42 +397,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cook_study" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-08-07,08" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-08-07,08/cook_study.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.4831_bus" />
-      <item itemvalue="Python.cook_study" />
-      <item itemvalue="Python.1221_GNS" />
-      <item itemvalue="Python.4012_cook" />
-      <item itemvalue="Python.1216_palindrome" />
-      <item itemvalue="Python.1216_pali" />
+      <item itemvalue="Python.1946" />
+      <item itemvalue="Python.1216" />
+      <item itemvalue="Python.4522" />
+      <item itemvalue="Python.146" />
+      <item itemvalue="Python.143" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.4012_cook" />
-        <item itemvalue="Python.1216_pali" />
-        <item itemvalue="Python.1216_palindrome" />
-        <item itemvalue="Python.cook_study" />
-        <item itemvalue="Python.1221_GNS" />
+        <item itemvalue="Python.143" />
+        <item itemvalue="Python.146" />
+        <item itemvalue="Python.1946" />
+        <item itemvalue="Python.1216" />
+        <item itemvalue="Python.4522" />
       </list>
     </recent_temporary>
   </component>
@@ -409,10 +429,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="20" width="1544" height="1000" extended-state="0" />
+    <frame x="259" y="20" width="1545" height="1000" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24900399" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24883875" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -420,7 +440,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32947975" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.3283237" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3202312" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -505,22 +525,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TIL/string/ASCII.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TIL/string/ASCII.py" />
     <entry file="file://$PROJECT_DIR$/Problem/2019-08-07,08/10815.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-end-line="2" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/1989.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem/2019-08-07,08/10815_Number_card.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -529,20 +540,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TIL/string/String01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TIL/re_fuction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <marker date="1565594681655" expanded="true" signature="132:434" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/1221_GNS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -553,13 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problem/2019-08-07,08/cook_study.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Problem/2019-08-07,08/4012.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -567,38 +568,158 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/1221_GNS.py">
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-07,08/cook_study.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/1989_palindrome.py">
+    <entry file="file://$PROJECT_DIR$/TIL/string/String01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/D3/1216_pali.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem/D3/1216_palindrome.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem/D3/1216_pali.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem/2019-08-07,08/4012_cook.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="21" />
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/4865.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/4865.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/4522.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/4864.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/4579.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/4864.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/1215.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="8" selection-start-line="1" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/4861.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/1216.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/1989.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/1989_palindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/1215.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/1216.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="53" lean-forward="true" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/4522.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="112" selection-start-line="7" selection-start-column="104" selection-end-line="7" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/4861.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/4579.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/1946.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/jungol/146.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-12/1946.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/jungol/143.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="46" />
         </state>
       </provider>
     </entry>
