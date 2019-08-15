@@ -1,6 +1,9 @@
 N=5                   #N*N 배열
-dx = [-1,+1,0,0]        #상하좌우
-dy = [0,0,-1,+1]
+# dx = [-1,+1,0,0]        #상하좌우
+# dy = [0,0,-1,+1]
+dx = [0,1,0,1]
+dy = [0,0,1,1]
+
 
 arr = [[9, 20, 2, 18, 11],
 [19, 1, 25, 3, 21],
@@ -18,12 +21,14 @@ for x in range(N): #모든 행
             tx, ty = x + dx[i], y+dy[i]
             #경계 체크
             if tx < 0 or tx == N or ty < 0 or ty == N: continue
-            total += abs(arr[tx][ty] - arr[x][y])
+            print(arr[tx][ty], arr[tx][ty])
+
+            # total += abs(arr[tx][ty] - arr[x][y])
             # val = arr[x][y] - arr[tx][ty]
             # sum += (-val if val < 0 else val)
         # total -= 2*arr[x][y]
             
-        print(total)
+        # print(total)
         print('------')
 
 

@@ -5,7 +5,6 @@ T = int(input())
 
 for num in range(1, T+1):
     word = input()
-    print(word)
     if word == word[::-1]:
         print('#{} 1'.format(num))
     else:
