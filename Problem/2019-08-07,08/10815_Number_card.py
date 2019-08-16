@@ -1,27 +1,60 @@
 import sys
 
 sys.stdin = open('10815.txt', 'r')
-sang = input()
-sang_card = list(map(int,input().split()))
-answer = int(input())
-answer_card = input()
-
-for i in sang_card:
-    answer_card = answer_card.replace(str(i), '1')
-answer_card = list(map(abs, map(int, answer_card.split())))
-answer_card = [0 if answer_card[i] > 1 else 1 for i in range(answer)]
-print(answer_card)
-
-
-
-# sang = int(input())
-# sang_card = list(map(int,input().split()))
+# sang = input()
+# sang_card = list(set(map(int,input().split())))
 # answer = int(input())
 # answer_card = list(map(int,input().split()))
-# # print(len(sang_card))
-# # sang_card.sort()
-# # result = [0]*answer
-#
+
+# for i in answer_card:
+#     if i in sang_card:
+#         print(1, end=' ')
+#     else:
+#         print(0, end=' ')
+
+
+
+
+
+
+
+# for i in sang_card:
+#     answer_card = answer_card.replace(str(i), '1')
+# answer_card = list(map(abs, map(int, answer_card.split())))
+# answer_card = [0 if answer_card[i] > 1 else 1 for i in range(answer)]
+# print(answer_card)
+
+
+
+sang = int(input())
+sang_card = list(map(int,input().split()))
+answer = int(input())
+answer_card = list(map(int,input().split()))
+sang_card.sort()
+
+for i in range(len(answer_card)):
+    s,l = 0 , sang-1
+    c = int((s + l)/2)
+
+    # if sang_card[s] == answer_card[i]:
+    #     print(1, end=' ')
+    # elif sang_card[l] == answer_card[i]:
+    #     print(1, end=' ')
+    # else:
+    while s != c:
+        if answer_card[i] == sang_card[c]:
+            print(1, end=' ')
+            break
+        c = int((s + l)/2)
+        if answer_card[i] > sang_card[c]:
+            s += 1
+        else:
+            l -= 1
+    else:
+        print(0, end=' ')
+print()
+
+
 # for i in range(answer):
 #     # print(answer_card)
 #     pop_card = answer_card.pop()
@@ -57,4 +90,4 @@ print(answer_card)
 #                 l = c
 #                 c = int((s+l)/2)
 
-# print(result)
+# # print(result)
