@@ -20,3 +20,5 @@ for num in range(1, T+1):
             if y_cheak == y_cheak[::-1] and y_cheak:
                 # print('y회문')
                 print('#{} {}'.format(num, y_cheak))
+
+    
