@@ -23,7 +23,7 @@ def BFS(s): #s:시작점
 
 import sys
 from collections import deque
-sys.stdin = open("weighted_graph.txt", "r")
+sys.stdin = open("BFS_input.txt", "r")
 
 
 V, E = map(int, input().split())

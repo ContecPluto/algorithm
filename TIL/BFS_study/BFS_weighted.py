@@ -9,37 +9,47 @@ def BFS(s): #s:시작점
     Q = deque()
     D[s] = 0
     P[s] = s
-    visit[s] = True; print(s, end=' ')
+    visit[s] = 0
+    print(s, end=' ')
     Q.append(s)
     while Q:
         v = Q.popleft()   #pop은 오른쪽, popleft는 왼쪽
         for w in G[v]:
-            if not visit[w]:
-                visit[w] = True; print(w, end=' ')
-                D[w] = D[v] + 1
+            # print(W[v][w][0])
+            if visit[w] >= (W[v][w][0] + visit[v]):
+                visit[w] = (W[v][w][0] + visit[v])
+                # print(w, end=' ')
+                print(visit)
                 P[w] = v
+                Q.append(w)
+            else:
                 Q.append(w)
 
 
 import sys
 from collections import deque
-sys.stdin = open("BFS_input.txt", "r")
+sys.stdin = open("weighted_graph.txt", "r")
 
 
 V, E = map(int, input().split())
 G = [[] for _ in range(V + 1)]
+W = [[[] for _ in range(V + 1)] for __ in range(V+1)]
+total = 0
 
 for i in range(E):
-    u, v = map(int, input().split())
+    u, v, w = map(int, input().split())
     G[u].append(v)
     G[v].append(u)
+    W[u][v].append(w)
 
-D = [[100000] for _ in range(V + 1)]  #아직 출발지에서 아무것도 가보지 못햇기 때  문에
+D = [[100000] for _ in range(V + 1)]  #아직 출발지에서 아무것도 가보지 못햇기 때문에 (가중치임)
 P = [[] for _ in range(V + 1)]
-visit = [False] * ( V + 1 )
+visit = [100000] * ( V + 1 )
 BFS(1)
-print()
-
-print(D)
-print(P)
+# print()
+#
+# print(W)
+# print(D)
+# print(P)
+print(visit)
 
