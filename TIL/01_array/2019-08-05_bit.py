@@ -21,28 +21,34 @@
 arr = [1,2,3]
 N= len(arr)
 
+# for subset in range(1 << N):
+#     print(subset, end = '>')
+#     for j in range(N):
+#         if subset & (1 <<j):
+#             print(arr[j], end=' ')
+#         # print()
+#     print()
+
 for subset in range(1 << N):
-    print(subset, end = '>')
+    print(subset, end='<')
     for j in range(N):
-        if subset & (1 <<j):
-            print(arr[j], end=' ')
-        # print()
+        if subset & (1 << j):
+            print(arr[j], end = ' ')
     print()
 
-
-arr = [3, 6, -2, 7, -3, 1, -5, -1, 5, 4]
-N = len(arr)
-count = 0
-a_sum = []
-
-for subset in range(1 << N):
-    for j in range(N):
-        if subset & (1<<j):
-            a_sum.append(arr[j])
-    if sum(a_sum) == 0 and a_sum:
-        count += 1
-        print(subset, '>', a_sum, count)
-    a_sum = []
+# arr = [3, 6, -2, 7, -3, 1, -5, -1, 5, 4]
+# N = len(arr)
+# count = 0
+# a_sum = []
+#
+# for subset in range(1 << N):
+#     for j in range(N):
+#         if subset & (1<<j):
+#             a_sum.append(arr[j])
+#     if sum(a_sum) == 0 and a_sum:
+#         count += 1
+#         print(subset, '>', a_sum, count)
+#     a_sum = []
     
 # a= 1
 # a=3 if a==1 else 2
