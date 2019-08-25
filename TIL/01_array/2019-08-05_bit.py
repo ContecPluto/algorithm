@@ -30,17 +30,29 @@ N= len(arr)
 #     print()
 
 for subset in range(1 << N):
+<<<<<<< HEAD
+    print(subset, end='>')
+    for j in range(N):
+        if subset & (1 << j):
+            print(arr[j], end=' ')
+    print()
+=======
     print(subset, end='<')
     for j in range(N):
         if subset & (1 << j):
             print(arr[j], end = ' ')
     print()
 
+>>>>>>> 74ecbc2b867ea0c1f2766cce740ca70423e318bb
 # arr = [3, 6, -2, 7, -3, 1, -5, -1, 5, 4]
 # N = len(arr)
 # count = 0
 # a_sum = []
+<<<<<<< HEAD
+
+=======
 #
+>>>>>>> 74ecbc2b867ea0c1f2766cce740ca70423e318bb
 # for subset in range(1 << N):
 #     for j in range(N):
 #         if subset & (1<<j):
