@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a0d7c36-e2b9-40ca-87e5-b03fdc391cd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Problem/2019-08-26/1220_magnetic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem/A_type_Study/2019-08-25/2667.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem/A_type_Study/2019-08-25/2667_Apartment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TIL/03_stack/operator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TIL/03_stack/powerset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TIL/BFS_study/quickSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/2019-08-27/1224_calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/2019-08-27/4874_Forth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/2019-08-27/4875.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/2019-08-27/4875_maze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/2019-08-27/4880_tournament.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TIL/BFS_study/BFS_weighted.py" beforeDir="false" afterPath="$PROJECT_DIR$/TIL/BFS_study/BFS_weighted.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TIL/BFS_study/weighted_graph.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TIL/BFS_study/weighted_graph.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TIL/Typora/2019-08-05.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TIL/Typora/2019-08-12.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TIL/Typora/2019-08-19.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,34 +56,35 @@
     <session id="-1648273075">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Untitled" value="2" />
-          <entry key="py" value="16" />
-          <entry key="txt" value="5" />
+          <entry key="py" value="26" />
+          <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="16" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="Python" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3553" />
-          <entry key="txt" value="2" />
+          <entry key="py" value="8314" />
+          <entry key="txt" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="3553" />
+          <entry key="PLAIN_TEXT" value="33" />
+          <entry key="Python" value="8314" />
         </counts>
       </usages-collector>
     </session>
@@ -97,53 +92,86 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problem/2019-08-26/1220_magnetic.py">
+        <entry file="file://$PROJECT_DIR$/Problem/2019-08-27/4880_tournament.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+            <state relative-caret-position="1501">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problem/2019-08-26/1220_magnetic2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problem/A_type_Study/2019-08-25/11724_connection_BFS_fail.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-197" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Problem/A_type_Study/2019-08-25/2667_Apartment.py">
+        <entry file="file://$PROJECT_DIR$/Problem/2019-08-27/1224_calculator.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problem/A_type_Study/2019-08-25/2667.txt">
+        <entry file="file://$PROJECT_DIR$/Problem/2019-08-27/1224.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+            <state relative-caret-position="19">
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problem/2019-08-26/1220.txt">
+        <entry file="file://$PROJECT_DIR$/Problem/2019-08-27/4875.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Problem/2019-08-27/4874_Forth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="25" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Problem/2019-08-27/4875_maze.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/class2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Problem/2019-08-27/4880.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="1" selection-start-line="1" selection-end-line="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TIL/03_stack/powerset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="32" selection-end-column="19" />
+              <folding>
+                <marker date="1566795220202" expanded="true" signature="25:30" ph="..." />
+                <marker date="1566795220202" expanded="true" signature="368:373" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -174,13 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Problem/01_Day/4834_min_max.py" />
-        <option value="$PROJECT_DIR$/Problem/01_Day/.idea/4831_bus.py" />
-        <option value="$PROJECT_DIR$/Problem/01_Day/4828_min_max.py" />
-        <option value="$PROJECT_DIR$/Problem/01_Day/4834_number_card.py" />
-        <option value="$PROJECT_DIR$/Problem/01_Day/4835_sum.py" />
-        <option value="$PROJECT_DIR$/Problem/01_Day/4831_bus.py" />
-        <option value="$PROJECT_DIR$/Problem/2019-08-07,08/2578_binggo.py" />
         <option value="$PROJECT_DIR$/Problem/2019-08-07,08/10163_paper.py" />
         <option value="$PROJECT_DIR$/TIL/string/ASCII.py" />
         <option value="$PROJECT_DIR$/Problem/2019-08-07,08/10815_Number_card.py" />
@@ -222,9 +243,16 @@
         <option value="$PROJECT_DIR$/TIL/03_stack/powerset.py" />
         <option value="$PROJECT_DIR$/TIL/BFS_study/quickSort.py" />
         <option value="$PROJECT_DIR$/Problem/2019-08-26/1220_magnetic.py" />
-        <option value="$PROJECT_DIR$/Problem/2019-08-26/1220_magnetic2.py" />
         <option value="$PROJECT_DIR$/Problem/A_type_Study/2019-08-25/2667.txt" />
         <option value="$PROJECT_DIR$/Problem/A_type_Study/2019-08-25/2667_Apartment.py" />
+        <option value="$PROJECT_DIR$/Problem/2019-08-27/4874.txt" />
+        <option value="$PROJECT_DIR$/Problem/2019-08-26/1220_magnetic2.py" />
+        <option value="$USER_HOME$/Downloads/class2.py" />
+        <option value="$PROJECT_DIR$/Problem/2019-08-27/4875_maze.py" />
+        <option value="$PROJECT_DIR$/Problem/2019-08-27/4874_Forth.py" />
+        <option value="$PROJECT_DIR$/Problem/2019-08-27/4880_tournament.py" />
+        <option value="$PROJECT_DIR$/Problem/2019-08-27/1224.txt" />
+        <option value="$PROJECT_DIR$/Problem/2019-08-27/1224_calculator.py" />
       </list>
     </option>
   </component>
@@ -255,31 +283,7 @@
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="Problem" type="462c0819:PsiDirectoryNode" />
-              <item name="2019-08-26" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="Problem" type="462c0819:PsiDirectoryNode" />
-              <item name="A_type_Study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="Problem" type="462c0819:PsiDirectoryNode" />
-              <item name="A_type_Study" type="462c0819:PsiDirectoryNode" />
-              <item name="2019-08-25" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="TIL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="TIL" type="462c0819:PsiDirectoryNode" />
-              <item name="03_stack" type="462c0819:PsiDirectoryNode" />
+              <item name="2019-08-27" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -313,8 +317,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2667_Apartment">
-    <configuration name="1220_magnetic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.1224_calculator">
+    <configuration name="1224_calculator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -322,11 +326,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-08-26" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-08-27" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-08-26/1220_magnetic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-08-27/1224_calculator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -335,7 +339,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1220_magnetic2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="33" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -343,32 +347,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-08-26" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../untitled" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-08-26/1220_magnetic2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2667_Apartment" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/A_type_Study/2019-08-25" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/A_type_Study/2019-08-25/2667_Apartment.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../untitled/33.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -398,7 +381,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="powerset" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="4875_maze" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -406,11 +389,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TIL/03_stack" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-08-27" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TIL/03_stack/powerset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-08-27/4875_maze.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -419,7 +402,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="quickSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="4880_tournament" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -427,11 +410,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TIL/BFS_study" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-08-27" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TIL/BFS_study/quickSort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-08-27/4880_tournament.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="class2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/class2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -442,19 +446,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.4831_bus" />
-      <item itemvalue="Python.powerset" />
-      <item itemvalue="Python.quickSort" />
-      <item itemvalue="Python.1220_magnetic" />
-      <item itemvalue="Python.1220_magnetic2" />
-      <item itemvalue="Python.2667_Apartment" />
+      <item itemvalue="Python.4875_maze" />
+      <item itemvalue="Python.4880_tournament" />
+      <item itemvalue="Python.class2" />
+      <item itemvalue="Python.1224_calculator" />
+      <item itemvalue="Python.33" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.2667_Apartment" />
-        <item itemvalue="Python.1220_magnetic2" />
-        <item itemvalue="Python.1220_magnetic" />
-        <item itemvalue="Python.quickSort" />
-        <item itemvalue="Python.powerset" />
+        <item itemvalue="Python.1224_calculator" />
+        <item itemvalue="Python.33" />
+        <item itemvalue="Python.4880_tournament" />
+        <item itemvalue="Python.4875_maze" />
+        <item itemvalue="Python.class2" />
       </list>
     </recent_temporary>
   </component>
@@ -473,6 +477,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1975764" />
@@ -517,51 +522,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TIL/stack/stack.py" />
-    <entry file="file://$PROJECT_DIR$/TIL/stack/facktorial.py" />
-    <entry file="file://$PROJECT_DIR$/TIL/stack/factorial.py" />
-    <entry file="file://$PROJECT_DIR$/Problem/2019-08-16/1244.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem/2019-08-19/4866.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem/2019-08-16/4408.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem/jungol/146.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1249248731/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="475" column="4" selection-start-line="475" selection-start-column="4" selection-end-line="475" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem/2019-08-07,08/4012_cook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TIL/03_stack/factorial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -749,32 +709,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../untitled/33.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TIL/03_stack/powerset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="20" />
-          <folding>
-            <marker date="1566795220202" expanded="true" signature="25:30" ph="..." />
-            <marker date="1566795220202" expanded="true" signature="368:373" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TIL/03_stack/operator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1566782169018" expanded="true" signature="41:207" ph="..." />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/TIL/BFS_study/weighted_graph.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -787,9 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding>
-            <element signature="e#446#456#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -810,40 +743,115 @@
     <entry file="file://$PROJECT_DIR$/Problem/2019-08-26/1220.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem/2019-08-26/1220_magnetic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem/2019-08-26/1220_magnetic2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem/A_type_Study/2019-08-25/11724_connection_BFS_fail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-197" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem/A_type_Study/2019-08-25/2667.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem/A_type_Study/2019-08-25/2667_Apartment.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/A_type_Study/2019-08-25/11724_connection_BFS_fail.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-27/4874.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-26/1220_magnetic2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-26/1220_magnetic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../untitled/33.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-27/4880_tournament.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1501">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-27/1224.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-27/4875.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-27/4874_Forth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="25" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-27/4875_maze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/class2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-27/4880.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="1" selection-start-line="1" selection-end-line="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TIL/03_stack/powerset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="32" selection-end-column="19" />
+          <folding>
+            <marker date="1566795220202" expanded="true" signature="25:30" ph="..." />
+            <marker date="1566795220202" expanded="true" signature="368:373" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08-27/1224_calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
