@@ -1,55 +1,64 @@
 import sys; sys.stdin = open('1224.txt', 'r')
+def isp(word):
+    if word == '(':
+        return 0
+    elif word == '+':
+        return 1
+    elif word == '*':
+        return 2
+    elif word == '/':
+        return 2
 
-isp = ['(', '+', '*']
-icp = ['+', '*', '(']
+def icp(word):
+    if word == '*':
+        return 2
+    if word == '+':
+        return 1
+    if word == '(':
+        return 3
+    if word == '/':
+        return 2
 
-
-
-for tc in range(1):
+for tc in range(1, 11):
     n = int(input())
+
     calculate = list(map(str, input()))
-    # print(calculate)
     stack = []
-    stack2 = ['(']
+    stack2 = []
     for x in calculate:
         if x.isdecimal():
             stack.append(int(x))
         else:
-            if x == ')':
-                for y in range(len(stack2)):
-                    while stack2:
-                        if isp.index(stack2[-1]) < isp.index(pop_stack):
-                            break
-                        if not stack2:
-                            break
-                        pop_stack = stack2.pop()
-                        if pop_stack != '(':
-                            stack.append(pop_stack)
-                        else:
-                            break
-            else:
+            if not stack2:
                 stack2.append(x)
-                if int(icp.index(stack2[len(stack2)-1])) < int(icp.index(x)):
-                    stack(stack2.pop())
+            else:
+                if x != ')':
+                    sp = isp(stack2[-1])
+                    cp = icp(x)
+                    if cp > sp:
+                        stack2.append(x)
+                    else:
+                        stack.append(stack2.pop())
+                        stack2.append(x)
+                else:
+                    while True:
+                        check = stack2.pop()
+                        if check == '(':
+                            break
+                        stack.append(check)
 
 
-
-
-    print(stack)
-    # stack2 = []
-    # for x in stack:
-    #
-    #     if type(x) == int:
-    #         stack2.append(x)
-    #     else:
-    #         if len(stack2) < 2:
-    #             print('여기')
-    #             break
-    #         popword1 = int(stack2.pop())
-    #         popword2 = int(stack2.pop())
-    #         # print(x, stack, popword1, popword2)
-    #         if x == '+':
-    #             stack2.append(popword2 + popword1)
-    #         elif x == '*':
-    #             stack2.append(popword2 * popword1)
-    # print(stack2)
+    stack2 = []
+    for x in stack:
+        if type(x) == int:
+            stack2.append(x)
+        else:
+            if len(stack2) < 2:
+                break
+            popword1 = int(stack2.pop())
+            popword2 = int(stack2.pop())
+            if x == '+':
+                stack2.append(popword2 + popword1)
+            elif x == '*':
+                stack2.append(popword2 * popword1)
+    print('#{} {}'.format(tc, stack2[0]))

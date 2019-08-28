@@ -12,7 +12,6 @@ def DFS(x, y):
             if maze[tx][ty] == 3:
                 result = 1
 
-
 import sys; sys.stdin = open('4875.txt', 'r')
 T = int(input())
 for tc in range(1, T+1):
@@ -22,7 +21,7 @@ for tc in range(1, T+1):
     maze = [list(map(int, list(input()))) for i in range(n)]
     for x in range(len(maze)):
         if maze[x].count(2):
-            print(DFS(x, maze[x].index(2)))
+            DFS(x, maze[x].index(2))
             break
     print('#{} {}'.format(tc, result))
 
