@@ -7,26 +7,17 @@ def tournament(v):
             if v[i+1:i+2]:
                 if v[i][0] == 1:
                     if v[i+1][0] == 1 or v[i+1][0] == 3:
-                        if v[i][1] < v[i+1][1]:
-                            winner.append(v[i])
-                        else:
-                            winner.append(v[i+1])
+                        winner.append(v[i])
                     else:
                         winner.append(v[i+1])
                 if v[i][0] == 2:
                     if v[i+1][0] == 2 or v[i+1][0] == 1:
-                        if v[i][1] < v[i+1][1]:
-                            winner.append(v[i])
-                        else:
-                            winner.append(v[i+1])
+                        winner.append(v[i])
                     else:
                         winner.append(v[i + 1])
                 if v[i][0] == 3:
                     if v[i+1][0] == 3 or v[i+1][0] == 2:
-                        if v[i][1] < v[i+1][1]:
-                            winner.append(v[i])
-                        else:
-                            winner.append(v[i+1])
+                        winner.append(v[i])
                     else:
                         winner.append(v[i + 1])
                 # print('위너1', winner)
@@ -37,10 +28,10 @@ def tournament(v):
         # print('인풋', winner)
         tournament(winner)
     # print(v)
-    if len(v) == 1:
+    else:
         check.append(v[0])
 
-
+def devison(list):
 
 import sys; sys.stdin = open('4880.txt', 'r')
 
@@ -55,25 +46,10 @@ for tc in range(1, T+1):
     # print(student)
     #
     # if len(st)
-    print(student[:(len(student)-1)//2])
-    print(student[((len(student)+2)//2)::])
-    while True:
-        # print('진행')
-        check = []
-        if len(student) > 2:
-            tournament(student[:len(student)//2])
-            if len(student[(len(student) // 2)::]) %2 == 0:
-                tournament(student[(len(student))//2::])
-            else:
-                midle = student[(len(student)) // 2::]
-                midle.append(midle.pop(0))
-                tournament(student[(len(midle))//2::])
-        elif len(student) == 2:
-            tournament(student)
-        elif len(student) == 1:
-            print('#{} {}'.format(tc, student[len(student) - 1][1]))
-            break
-        student = check
-        print(check)
+    # print(student[:(len(student)+1)//2])
+    # print(student[((len(student)+1)//2)::])
+    left = tournament(student[:(len(student)//2+1)])
+    right = tournament(student[(len(student)//2)+1::])
+    # print(check)
     tournament(check)
-    print(check)
+    print('#{} {}'.format(tc, check[len(check)-1][1]))

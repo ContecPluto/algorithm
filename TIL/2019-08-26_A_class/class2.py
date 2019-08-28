@@ -1,4 +1,4 @@
-arr = 'ABC'; N = len(arr)
+arr = 'ABCDEFGHIJ'; N = len(arr)
 order = [0] * N
 
 def perm(k, n, visit):   #visit: 지금까지 선택한 요소들의 집합
