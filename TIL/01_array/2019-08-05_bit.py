@@ -21,25 +21,25 @@
 arr = [1,2,3]
 N= len(arr)
 
-# for subset in range(1 << N):
-#     print(subset, end = '>')
-#     for j in range(N):
-#         if subset & (1 <<j):
-#             print(arr[j], end=' ')
-#         # print()
-#     print()
-
 for subset in range(1 << N):
-    print(subset, end='>')
+    print(subset, end = '>')
     for j in range(N):
-        if subset & (1 << j):
+        if subset & (1 <<j):
             print(arr[j], end=' ')
+        # print()
     print()
-    print(subset, end='<')
-    for j in range(N):
-        if subset & (1 << j):
-            print(arr[j], end = ' ')
-    print()
+
+# for subset in range(1 << N):
+#     print(subset, end='>')
+#     for j in range(N):
+#         if subset & (1 << j):
+#             print(arr[j], end=' ')
+#     print()
+#     print(subset, end='<')
+#     for j in range(N):
+#         if subset & (1 << j):
+#             print(arr[j], end = ' ')
+#     print()
 
 # arr = [3, 6, -2, 7, -3, 1, -5, -1, 5, 4]
 # N = len(arr)

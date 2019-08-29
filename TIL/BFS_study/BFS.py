@@ -10,6 +10,7 @@ def BFS(s): #s:시작점
     D[s] = 0
     P[s] = s
     visit[s] = True; print(s, end=' ')
+
     Q.append(s)
     while Q:
         v = Q.popleft()   #pop은 오른쪽, popleft는 왼쪽

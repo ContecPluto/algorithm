@@ -1,14 +1,14 @@
 # 이후 재괴에서 사용함
 
-# arr = 'ABC'
-# bit = [0] * 3
+arr = 'ABC'
+bit = [0] * 3
 
 # def print_set(bits):
 #     for i in range(len(bits)):
 #         if bits[i]:
 #             print(arr[i], end = ' ')
 #     print()
-
+#
 # print_set(arr)
 
 N = 3

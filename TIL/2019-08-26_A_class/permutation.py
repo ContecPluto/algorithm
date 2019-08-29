@@ -2,12 +2,11 @@
 
 def perm(k, n, used):
     if k == n:
-        global cnt,result
-        print("%2d> %s" % (cnt, " ".join(order)))
-        cnt += 1
-        if order:
-            result += [order]
-        return
+        global result
+        check = []
+        for i in range(len(order)):
+            check.append(order[i])
+        result.append(check)
 
     for i in range(n):
         if used & (1 << i): continue
@@ -19,7 +18,8 @@ def perm(k, n, used):
         order.pop()
 
 
-arr = "ABCDE"
+arr = "ABCDEF"
+
 order = []      # 순열 저장
 cnt = 1
 result =[]
