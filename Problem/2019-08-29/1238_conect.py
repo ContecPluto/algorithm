@@ -4,7 +4,6 @@ from collections import deque
 def BFS(s):
     Q = deque()
     D[s] = 1
-    P[s] = s
     visit[s] = True#; print(s, end=' ')
     Q.append(s)
     while Q:
@@ -16,8 +15,6 @@ def BFS(s):
                 Q.append(w)
 
 
-
-
 for tc in range(1, 11):
     result = []
     V, E = list(map(int, input().split()))
@@ -25,7 +22,6 @@ for tc in range(1, 11):
     G = [[] for _ in range(101)]
     visit = [False for _ in range(101)]
     D = [0 for _ in range(101)]
-    P = [[] for _ in range(101)]
 
     for i in range(0, V, 2):
         u = nums[i]
