@@ -34,13 +34,24 @@ def delete(pre): #pre 다음 노드 삭제
 data = [1,2,3,4]
 Head = None
 
+
 for i in range(len(data)):
     # addtoLast(data[i])
     addtoFirst(data[i])
 
-# add(Head.link, 8)
-delete(Head.link)
+check = Head
+x=2
+for i in range(20):
+    if x < check.data:
+        add(check, x)
+        break
+    else:
+        check = check.link
+# delete(Head.link)
 
+print(Head.data)
+
+# print(Head.data)
 while Head.link != None:
     print(Head.data, end=' -> ')
     Head = Head.link
