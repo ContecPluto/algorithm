@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a0d7c36-e2b9-40ca-87e5-b03fdc391cd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Problem/2019-09-03/5122_edit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem/2019-09-03/5120_password" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TIL/05_list/01_Node.py" beforeDir="false" afterPath="$PROJECT_DIR$/TIL/05_list/01_Node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problem/A_type_Study/2019-08-25/2205_break_wall_maze_BFS_fail.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problem/A_type_Study/2019-08-25/2205_break_wall_maze_BFS_fail.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.5122_edit">
+  <component name="RunManager" selected="Python.2205_break_wall_maze_BFS_fail">
     <configuration name="01_Node" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,6 +119,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="2205_break_wall_maze_BFS_fail" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/A_type_Study/2019-08-25" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/A_type_Study/2019-08-25/2205_break_wall_maze_BFS_fail.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="2205_break_wall_maze_DFS" type="PythonConfigurationType" factoryName="Python">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,28 +177,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/01_Day/4831_bus.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5110_Merging_Sequences" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-09-03" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-09-03/5110_Merging_Sequences.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -260,18 +256,18 @@
       <item itemvalue="Python.4831_bus" />
       <item itemvalue="Python.2205_break_wall_maze_DFS" />
       <item itemvalue="Python.01_Node" />
-      <item itemvalue="Python.5110_Merging_Sequences" />
       <item itemvalue="Python.5120_password" />
       <item itemvalue="Python.5120_password (1)" />
       <item itemvalue="Python.5122_edit" />
+      <item itemvalue="Python.2205_break_wall_maze_BFS_fail" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2205_break_wall_maze_BFS_fail" />
         <item itemvalue="Python.5122_edit" />
         <item itemvalue="Python.01_Node" />
         <item itemvalue="Python.5120_password (1)" />
         <item itemvalue="Python.5120_password" />
-        <item itemvalue="Python.5110_Merging_Sequences" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +290,8 @@
       <workItem from="1567229220450" duration="2099000" />
       <workItem from="1567315901521" duration="13339000" />
       <workItem from="1567415957974" duration="5058000" />
-      <workItem from="1567511203215" duration="3253000" />
+      <workItem from="1567511203215" duration="4016000" />
+      <workItem from="1567517256179" duration="1746000" />
     </task>
     <servers />
   </component>
@@ -351,6 +348,7 @@
     <SUITE FILE_PATH="coverage/algorithm$2178_maze.coverage" NAME="2178_maze Coverage Results" MODIFIED="1567346577508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Problem/A_type_Study/2019-08-25" />
     <SUITE FILE_PATH="coverage/algorithm$5122_edit.coverage" NAME="5122_edit Coverage Results" MODIFIED="1567514797660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Problem/2019-09-03" />
     <SUITE FILE_PATH="coverage/algorithm$powerset.coverage" NAME="powerset Coverage Results" MODIFIED="1567002670976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TIL/03_stack" />
+    <SUITE FILE_PATH="coverage/algorithm$2205_break_wall_maze_BFS_fail.coverage" NAME="2205_break_wall_maze_BFS_fail Coverage Results" MODIFIED="1567519350632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Problem/A_type_Study/2019-08-25" />
     <SUITE FILE_PATH="coverage/algorithm$14501_Leave.coverage" NAME="14501_Leave Coverage Results" MODIFIED="1567421723053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Problem/A_type_Study/2019-09-02" />
     <SUITE FILE_PATH="coverage/algorithm$class2.coverage" NAME="class2 Coverage Results" MODIFIED="1567001692720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TIL/2019-08-26_A_class" />
     <SUITE FILE_PATH="coverage/algorithm$2205_break_wall_maze.coverage" NAME="2205_break_wall_maze Coverage Results" MODIFIED="1567346565581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Problem/A_type_Study/2019-08-25" />

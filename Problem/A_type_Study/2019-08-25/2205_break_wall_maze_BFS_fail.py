@@ -22,7 +22,7 @@ def BFS(s, arrival):
             # print(x,y)
             if 0 <= x < N and 0 <= y < M:
                 # print(x,y)
-                if maze[x][y] == 0 and D[x][y] > (D[v[0]][v[1]] + 1):
+                if maze[x][y][P[v[0]][v[1]]] == 0 and D[x][y][P[v[0]][v[1]]] > (D[v[0]][v[1]][P[v[0]][v[1]]] + 1):
                     visit[x][y] = True
                     # print([x,y], v, D[x][x])
                     D[x][y] = D[v[0]][v[1]] + 1
@@ -53,8 +53,8 @@ start = [0, 0]
 N, M = list(map(int, input().split()))
 maze = [list(map(int, input())) for _ in range(N)]
 visit = [[False for _ in range(M)] for __ in range(N)]
-D = [[10000 for _ in range(M)] for __ in range(N)]
-P = [[[] for _ in range(M)] for __ in range(N)]
+D = [[[0, 0] for _ in range(M)] for __ in range(N)]
+P = [[0 for _ in range(M)] for __ in range(N)]
 # print(maze)
 BFS(start, [N-1, M-1])
 # print(D)
