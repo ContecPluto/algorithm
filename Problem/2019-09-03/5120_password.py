@@ -51,14 +51,14 @@ for tc in range(1, T+1):
                     check = Head
                 else:
                     check = check.link
-            if i == 1:
+            if i == M-2:
                 if check.link ==None:
                     # print(Head.data, end=' ')
                     total += Head.data
                 else:
                     # print(check.link.data,end=' ')
                     total += check.link.data
-            if i == 2:
+            if i == M-1:
                 if check.link ==None:
                     # print(Head.data)
                     total += Head.data
@@ -80,8 +80,9 @@ for tc in range(1, T+1):
             check = check.link
         print('#{} {}'.format(tc, ' '.join(map(str, reversed(result)))))
     else:
+        check = Head
         result = []
-        for _ in range(10):
+        for _ in range(N):
             result.append(check.data)
             check = check.link
         print('#{} {}'.format(tc, ' '.join(map(str, reversed(result)))))

@@ -13,6 +13,12 @@ def add(pre, data): #pre 다음에 데이터 삽입, 가운데 노드로 삽입�
     else:
         pre.link = Node(data, pre.link)
 
+def edit(pre, data): #pre 다음에 데이터 삽입, 가운데 노드로 삽입하는 알고리즘
+    if pre == None:
+        print('error')
+    else:
+        pre.link = Node(data, pre.link.link)
+
 def addtoLast(data): #마지막 데이터 삽입
     global Head
     if Head == None:
@@ -39,18 +45,16 @@ for i in range(len(data)):
     # addtoLast(data[i])
     addtoFirst(data[i])
 
-check = Head
-x=2
-for i in range(20):
-    if x < check.data:
-        add(check, x)
-        break
-    else:
-        check = check.link
-# delete(Head.link)
+# check = Head
+# # x=2
+# # for i in range(20):
+# #     if x < check.data:
+# #         add(check, x)
+# #         break
+# #     else:
+# #         check = check.link
 
-print(Head.data)
-
+edit(Head.link, 9)
 # print(Head.data)
 while Head.link != None:
     print(Head.data, end=' -> ')
