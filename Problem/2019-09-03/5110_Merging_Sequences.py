@@ -62,6 +62,7 @@ for tc in range(1,T+1):
     #     print(Head.data, end=' -> ')
     #     Head = Head.link
     # print(Head.data)
+
     result = []
     for _ in range(10):
         result.append(check.data)
