@@ -33,4 +33,4 @@ while Q:
             Q.append((tx, ty, 1))
 else:
     ans = -1
-print(D)
+print(ans)
