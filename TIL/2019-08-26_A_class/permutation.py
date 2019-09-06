@@ -1,7 +1,7 @@
 
 
 def perm(k, n, used):
-    if k == n:
+    if k == 3:
         global result
         check = []
         for i in range(len(order)):
