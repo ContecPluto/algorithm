@@ -16,13 +16,12 @@ def find(x):
                 return x, y
 
 T = int(input())
-for tc in range(1, T + 1):
+for tc in range(1):
     N, M = list(map(int, input().split()))
     text = [input() for _ in range(N)]
     x = y_find()
     a, b = find(x)
     number = []
-
     while len(number) != 8:
         number = []
         for x in range(b, M, 7):
