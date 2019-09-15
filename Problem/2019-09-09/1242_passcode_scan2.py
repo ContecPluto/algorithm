@@ -73,7 +73,7 @@ for tc in range(1, 9):
                 if x >= len(result)-1:
                     break
 
-                for __ in range(1,3):
+                for __ in range(1,11):
                     check = [0, 0, 0, 0]
                     c = 0
                     k = 0

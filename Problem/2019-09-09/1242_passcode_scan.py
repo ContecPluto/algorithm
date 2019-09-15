@@ -93,7 +93,7 @@ for tc in range(1, T+1):
                 else:
                     for i in range(4):
                         check[i] = check[i] // 2
-
+                    # print(check)
                     for idx, k in enumerate(passcode.values()):
                         # print(check, k)
                         if check == k:
