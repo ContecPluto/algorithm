@@ -5,15 +5,15 @@ T = int(input())
 for tc in range(1, T+1):
     x = float(input())
     check = []
-    result = []
+    result = ''
     for j in range(-1, -13, -1):
         if x >= (2**j):
             x -= (2**j)
-            result.append('1')
+            result += '1'
         else:
-            result.append('0')
+            result += '0'
         if x == 0:
             break
     if x != 0:
         result = 'overflow'
-    print('#{} {}'.format(tc, ''.join(result)))
+    print('#{} {}'.format(tc, result))

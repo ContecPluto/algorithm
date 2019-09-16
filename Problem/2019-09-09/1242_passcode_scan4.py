@@ -31,7 +31,7 @@ for tc in range(T):
                         else:
                             if temp and temp not in password:
                                 last_check = ''
-                                for i2 in range(len(temp)-1, 0, -1):
+                                for i2 in range(len(temp)-1, -1, -1):
                                     last_check = temp[i2] + last_check
                                     if last_check in password:
                                         temp = ''
@@ -39,8 +39,6 @@ for tc in range(T):
                                 else:
                                     password.append(temp)
                                     temp = ''
-                            else:
-                                temp = ''
             else:
                 if i[j] != '0':
                     temp += i[j]
@@ -50,9 +48,10 @@ for tc in range(T):
     for ps in password:
         # print(ps)
         result = ''
-        c = len(ps) - 1
 
         for i in ps:
+            # result = bin(int(ps, 16))[2::]
+
             if not i.isdecimal():
                 number = num.get(i)
                 for j in range(3, -1, -1):
@@ -74,16 +73,12 @@ for tc in range(T):
         # print(result)
         code = []
         while len(code) != 8:
-        # for i in range(6):
-        #     print(i)
-        #     print('중간체크')
             result = '0' + result
             start = 0
             end = 5000
             code = []
             length = 0
             while start != end:
-            # for _ in range(1):
                 end = start
                 length += 1
                 for k in range(8, 0, -1):
@@ -108,14 +103,10 @@ for tc in range(T):
                         if k >= 2:
                             for div in range(len(check)):
                                 check[div] //= k
-                        # if c_index == 3:
-                        # print(result[start: start + 7 * k])
-                        # print(check, k)
                         for j in range(10):
                             if passcode.get(j) == check:
                                 code.append(j)
                                 start += 7 * k
-                                # print(code)
                                 break
                         if passcode.get(j) == check:
                             break

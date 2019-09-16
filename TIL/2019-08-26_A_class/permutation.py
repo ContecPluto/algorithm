@@ -1,5 +1,4 @@
 
-
 def perm(k, n, used):
     if k == 3:
         global result
@@ -10,11 +9,8 @@ def perm(k, n, used):
 
     for i in range(n):
         if used & (1 << i): continue
-
         order.append(arr[i])
-
         perm(k + 1, n, used | (1 << i))
-
         order.pop()
 
 
