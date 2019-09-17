@@ -1,5 +1,5 @@
 #재귀적 순열
-arr = [1,2,3,4]
+arr = [0, 1,2]
 N = len(arr)
 # for i in range(N):
 #     arr[0], arr[i] = arr[i], arr[0]
@@ -43,5 +43,27 @@ def comb(k,s):
             comb(k + 1, i + 1)
             choose.pop()
 comb(0, 0)
+
+#메모이제이션 연습
+# def perm(z, n):
+#     global result, memo
+#     if not memo[n-1] and not memo[n]:
+#         perm(z-1, n-1)
+#
+#     if not memo[n] and memo[n-1]:
+#         i = n - 1
+#         for j in range(len(memo[i])):
+#             for k in range(len(memo[i][j]) + 1):
+#                 check = memo[i][j].copy()
+#                 check.insert(k, i)
+#                 # print(check)
+#                 memo[i + 1].append(check)
+#                 if i == 10:
+#                     print(i+1)
+#                     print(memo[i+1])
+#
+#     if z == n:
+#         result = memo[z]
+#         return result
 
 
