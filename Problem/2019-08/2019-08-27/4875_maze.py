@@ -27,5 +27,32 @@ for tc in range(1, T+1):
 
 
 
-
-
+# import sys ; sys.stdin = open('4875.txt', 'r')
+# def DFS(x,y):
+#     global result
+#     dx = [0,0,1,-1]
+#     dy = [1,-1,0,0]
+#     visit[x][y] = True
+#     # print(x,y)
+#     for i in range(4):
+#         tx = x +dx[i]
+#         ty = y +dy[i]
+#         if 0 <= tx < N and 0 <= ty <N:
+#             if arr[tx][ty] == 0 and visit[tx][ty] == False:
+#                 DFS(tx,ty)
+#             if arr[tx][ty] == 2:
+#                 result = 1
+#                 return
+#
+# T = int(input())
+# for tc in range(1, T+1):
+#     N = int(input())
+#     result = 0
+#     arr = [list(map(int, input())) for _ in range(N)]
+#     visit =[[False for _ in range(N)] for _ in range(N)]
+#     for x in range(N):
+#         for y in range(N):
+#             if arr[x][y]==3:
+#                 DFS(x, y)
+#                 break
+#     print(result)
