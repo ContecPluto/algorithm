@@ -2,10 +2,10 @@ import sys; sys.stdin = open('5189.txt', 'r')
 
 def perm(k):
     global result
-    if k==N:
+    if k == N:
         arr.append(0)
         check = 0
-        for i in range(0, len(arr)-1):
+        for i in range(len(arr)-1):
             check += office[arr[i]][arr[i+1]]
         arr.pop()
         result = min(result, check)

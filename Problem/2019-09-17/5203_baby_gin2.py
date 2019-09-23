@@ -1,8 +1,4 @@
 import sys; sys.stdin = open('5203.txt', 'r')
-import time
-
-st = time.time()
-
 T = int(input())
 for tc in range(1, T+1):
     card = list(map(int, input().split()))
@@ -15,23 +11,20 @@ for tc in range(1, T+1):
         if count[x][card[i]] >= 3:
             result = x+1
             break
-        for j in range(8):
+        for j in range(5):
             run1 = 1
-            k = j + 0
             if count[x][j]:
-                while k < 9:
-                    k += 1
+                for k in range(j+1, j+4):
                     if count[x][k] == 0:
                         break
                     elif count[x][k] > 0:
                         run1 += 1
             if run1 >= 3:
-                result = x+1
+                result = x + 1
                 break
         if run1 >= 3:
             break
     print('#{} {}'.format(tc, result))
-print(time.time() -st)
 
 
 
