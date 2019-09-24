@@ -12,7 +12,7 @@ def DFS(x, y):
             if maze[tx][ty] == 3:
                 result = 1
 
-import sys; sys.stdin = open('4875.txt', 'r')
+import sys; sys.stdin = open('4613.txt', 'r')
 T = int(input())
 for tc in range(1, T+1):
     result = 0
@@ -27,7 +27,7 @@ for tc in range(1, T+1):
 
 
 
-# import sys ; sys.stdin = open('4875.txt', 'r')
+# import sys ; sys.stdin = open('4613.txt', 'r')
 # def DFS(x,y):
 #     global result
 #     dx = [0,0,1,-1]

@@ -2,21 +2,23 @@ import sys; sys.stdin = open('5207.txt', 'r')
 
 def BinarySearch(lo, hi, search):
     global cnt, check
-    mid = (lo + hi) // 2
+    mid = (lo + hi) >> 1
     if lo > hi:
         return
-
-    # print(mid, A[mid], search)
     if A[mid] == search:
         cnt += 1
-        return
     elif A[mid] > search:
-        check.append(2)
+        if check:
+            if check[-1] == 1:
+                return
+        check.append(1)
         BinarySearch(lo, mid - 1, search)
     elif A[mid] < search:
-        check.append(1)
+        if check:
+            if check[-1] == 2:
+                return
+        check.append(2)
         BinarySearch(mid + 1, hi, search)
-
 T = int(input())
 for tc in range(1, T + 1):
     N, M = list(map(int, input().split()))
@@ -25,6 +27,6 @@ for tc in range(1, T + 1):
     cnt = 0
     for i in B:
         check = []
-        BinarySearch(0, len(A)-1, i)
+        BinarySearch(0, N - 1, i)
     print('#{} {}'.format(tc, cnt))
 

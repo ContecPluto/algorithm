@@ -20,7 +20,7 @@ def perm(k):
             arr[k], arr[i] = arr[i], arr[k]
             perm(k + 1)
             arr[k], arr[i] = arr[i], arr[k]
-perm(0)
+perm(1)
 
 def nCr(n, r):
     if n == r or r == 0:

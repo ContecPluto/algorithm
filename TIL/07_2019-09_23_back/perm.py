@@ -6,11 +6,7 @@ visit = [False] * N
 def perm(a, k, n):
     if k == n:
         print(a)
-        # for i in a:
-        #     print(arr[i], end='  ')
-        # print()
     else:
-
         for i in range(n):
             if visit[i]: continue
             a[k] = i
