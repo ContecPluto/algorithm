@@ -34,5 +34,5 @@ def fibonacci(n):     #n번쨰 피보나치 수를 반환
 
 
 print('시작')
-print(fibonacci(30))
+print(fibonacci(3))
 print('끝')
