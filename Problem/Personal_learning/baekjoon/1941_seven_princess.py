@@ -1,35 +1,27 @@
 import sys; sys.stdin = open('1941.txt','r')
 
-dx = [-1,1,0,0]
-dy = [0,0,-1,1]
-
-def DFS(s, k):
-    global result, check
-    if k == 7:
-        print(check)
-        if check.count('S') >= 4:
-            result += 1
-        return
-    x,y = s
-    visit[x][y] = True
-    for i in range(4):
-        tx = x + dx[i]
-        ty = y + dy[i]
-        if 0 <= tx < 5 and 0 <= ty < 5:
-            if visit[tx][ty] == False:
-                check.append(arr[tx][ty])
-                DFS([tx, ty], k + 1)
-                check.pop()
-
+dx = [0,0,-1,1]
+dy = [-1,1,0,0]
 
 arr = [input() for _ in range(5)]
-visit = [[False for _ in range(5)] for _ in range(5)]
-result = 0
+
 for i in range(5):
     for j in range(5):
-        if arr[i][j] == 'S':
-            check = ['S']
+        for x in range(j + 1, 6):
 
-            DFS([i, j], 0)
-print(result)
+            # print(arr[i][j:x])
+
+            li = len(arr[i][j:x])
+            for y in range(0, li - 1):
+                if y + 8 - x > 5: continue
+                if j <= y <= y + 8 - x:
+                    y_check = ''
+                    for y2 in range(y, y + 8 - x):
+                        y_check += arr[y2][i]
+                print(arr[i][j+1:x])
+                print('y는', y_check)
+
+            # for y in range(0, 5)
+
+
 
