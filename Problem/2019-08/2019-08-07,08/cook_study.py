@@ -8,5 +8,5 @@ for set in range(1 << 5):
             A.append(arr[i])
         else:
             B.append(arr[i])
-    if len(A) == len(B):
-        print(A, B)
+
+    print(A, B)

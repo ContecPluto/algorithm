@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a0d7c36-e2b9-40ca-87e5-b03fdc391cd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Problem/2019-10-02/2115.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem/2019-10-02/2115_honey-01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem/2019-10-02/2115_honey.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/2019-10-04/1808.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/2019-10-04/1808_Calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/2019-10-04/1952.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/2019-10-04/1952_pool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/2019-10-04/3234.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/2019-10-04/3234_Scale.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TIL/memo/subset.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem/Personal_learning/baekjoon/1941_seven_princess.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problem/Personal_learning/baekjoon/1941_seven_princess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problem/2019-08/2019-08-07,08/cook_study.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problem/2019-08/2019-08-07,08/cook_study.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TIL/01_array/2019-08-05_bit.py" beforeDir="false" afterPath="$PROJECT_DIR$/TIL/01_array/2019-08-05_bit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TIL/06_/permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/TIL/06_/permutation.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,55 +24,112 @@
     <session id="-1648273075">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="18" />
-          <entry key="txt" value="3" />
+          <entry key="py" value="33" />
+          <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="18" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Python" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4296" />
-          <entry key="txt" value="18" />
+          <entry key="dummy" value="3" />
+          <entry key="py" value="13712" />
+          <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Python" value="4296" />
+          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="Python" value="13712" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.61961365">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Problem/2019-10-02/2115_honey.py">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Problem/2019-10-04/3234_Scale.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="577">
-                  <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+                <state relative-caret-position="-65">
+                  <caret line="20" selection-start-line="20" selection-end-line="33" selection-end-column="26" />
+                  <folding>
+                    <element signature="e#138#194#0" />
+                    <element signature="e#214#326#0" />
+                    <marker date="1570169162975" expanded="true" signature="324:326" ph="..." />
+                    <marker date="1570169162975" expanded="true" signature="338:343" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Problem/2019-10-02/2115_honey-01.py">
+            <entry file="file://$PROJECT_DIR$/Problem/2019-10-04/1952_pool.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="798">
-                  <caret line="42" column="38" selection-start-line="4" selection-end-line="42" selection-end-column="38" />
+                <state>
+                  <caret column="40" lean-forward="true" selection-start-column="40" selection-end-column="40" />
+                  <folding>
+                    <marker date="1570170247160" expanded="true" signature="122:364" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Problem/2019-10-04/1808_Calculator.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="342">
+                  <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+                  <folding>
+                    <marker date="1570179637645" expanded="true" signature="534:536" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/TIL/memo/subset.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="399">
+                  <caret line="72" column="12" lean-forward="true" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+                  <folding>
+                    <element signature="e#0#30#0" expanded="true" />
+                    <marker date="1570159505927" expanded="true" signature="165:1125" ph="..." />
+                    <marker date="1570159505927" expanded="true" signature="165:1157" ph="..." />
+                    <marker date="1570159505927" expanded="true" signature="165:1258" ph="..." />
+                    <marker date="1570159505927" expanded="true" signature="487:906" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/TIL/01_array/2019-08-05_bit.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="152">
+                  <caret line="23" selection-start-line="23" selection-end-line="29" selection-end-column="11" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/TIL/06_/permutation.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="42" lean-forward="true" selection-end-line="1" />
                 </state>
               </provider>
             </entry>
@@ -78,10 +139,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Problem/2019-10-02/2115.txt">
+            <entry file="file://$PROJECT_DIR$/Problem/2019-10-04/1808.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1159">
-                  <caret line="61" column="11" lean-forward="true" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+                <state relative-caret-position="19">
+                  <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -115,6 +176,7 @@
       <find>5</find>
       <find>pr</find>
       <find>x</find>
+      <find>cnt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,12 +190,23 @@
         <option value="$PROJECT_DIR$/Problem/2019-10-02/2115_honey-01.py" />
         <option value="$PROJECT_DIR$/Problem/2019-10-02/2115_honey.py" />
         <option value="$PROJECT_DIR$/Problem/Personal_learning/baekjoon/1941_seven_princess.py" />
+        <option value="$PROJECT_DIR$/Problem/2019-08/2019-08-07,08/cook_study.py" />
+        <option value="$PROJECT_DIR$/TIL/03_stack/factorial.py" />
+        <option value="$PROJECT_DIR$/TIL/06_/permutation.py" />
+        <option value="$PROJECT_DIR$/TIL/01_array/2019-08-05_bit.py" />
+        <option value="$PROJECT_DIR$/TIL/memo/subset.py" />
+        <option value="$PROJECT_DIR$/Problem/2019-10-04/3234.txt" />
+        <option value="$PROJECT_DIR$/Problem/2019-10-04/3234_Scale.py" />
+        <option value="$PROJECT_DIR$/Problem/2019-10-04/1952_poll.py" />
+        <option value="$PROJECT_DIR$/Problem/2019-10-04/1952_pool.py" />
+        <option value="$PROJECT_DIR$/Problem/2019-10-04/1808_Calculator.py" />
+        <option value="$PROJECT_DIR$/Problem/2019-10-04/1808.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1832" />
+    <option name="width" value="1825" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectId" id="1Q3Rht2TCjyXSX1RfyEAIVTTOD2" />
@@ -142,7 +215,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,20 +231,13 @@
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="Problem" type="462c0819:PsiDirectoryNode" />
-              <item name="2019-10-02" type="462c0819:PsiDirectoryNode" />
+              <item name="2019-09" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="Problem" type="462c0819:PsiDirectoryNode" />
-              <item name="Personal_learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="Problem" type="462c0819:PsiDirectoryNode" />
-              <item name="Personal_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="baekjoon" type="462c0819:PsiDirectoryNode" />
+              <item name="2019-10-04" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -185,52 +250,11 @@
               <item name="TIL" type="462c0819:PsiDirectoryNode" />
               <item name="01_array" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="TIL" type="462c0819:PsiDirectoryNode" />
-              <item name="02_string" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="TIL" type="462c0819:PsiDirectoryNode" />
-              <item name="03_stack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="TIL" type="462c0819:PsiDirectoryNode" />
-              <item name="04_Queue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="TIL" type="462c0819:PsiDirectoryNode" />
-              <item name="05_list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="TIL" type="462c0819:PsiDirectoryNode" />
-              <item name="06_" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="TIL" type="462c0819:PsiDirectoryNode" />
-              <item name="07_2019-09_23_back" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="TIL" type="462c0819:PsiDirectoryNode" />
-              <item name="2019-08-26_A_class" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,19 +270,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-04" />
+      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-02" />
+      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-01" />
+      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-09\2019-09-30" />
+      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-09-30" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-02" />
       <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-01" />
       <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-09-30" />
       <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-09-23" />
       <recent name="C:\Users\student\Desktop\python\algorithm\Problem\Personal_learning\baekjoon" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-02" />
-      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-01" />
-      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-09\2019-09-30" />
-      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-09-30" />
-      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-08-29" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -273,49 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1941_seven_princess">
-    <configuration name="1244_maximum_reward-01" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-10-01" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-10-01/1244_maximum_reward-01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1244_maximum_reward" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-10-01" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-10-01/1244_maximum_reward.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.1808_Calculator">
     <configuration name="14501_Leave" type="PythonConfigurationType" factoryName="Python">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -338,7 +320,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1941_seven_princess" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1808_Calculator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -346,11 +328,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/Personal_learning/baekjoon" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-10-04" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/Personal_learning/baekjoon/1941_seven_princess.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-10-04/1808_Calculator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -359,7 +341,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2115_honey-01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1952_pool" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -367,11 +349,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-10-02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-10-04" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-10-02/2115_honey-01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-10-04/1952_pool.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -380,7 +362,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2115_honey" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2019-08-05_bit" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -388,11 +370,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-10-02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TIL/01_array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-10-02/2115_honey.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TIL/01_array/2019-08-05_bit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -445,6 +427,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="3234_Scale" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-10-04" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-10-04/3234_Scale.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="4831_bus" type="PythonConfigurationType" factoryName="Python">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -467,24 +470,45 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="subset" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TIL/memo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TIL/memo/subset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.14501_Leave" />
       <item itemvalue="Python.2178_maze" />
       <item itemvalue="Python.2205_break_wall_maze_DFS" />
       <item itemvalue="Python.4831_bus" />
-      <item itemvalue="Python.1244_maximum_reward" />
-      <item itemvalue="Python.1244_maximum_reward-01" />
-      <item itemvalue="Python.1941_seven_princess" />
-      <item itemvalue="Python.2115_honey" />
-      <item itemvalue="Python.2115_honey-01" />
+      <item itemvalue="Python.3234_Scale" />
+      <item itemvalue="Python.subset" />
+      <item itemvalue="Python.2019-08-05_bit" />
+      <item itemvalue="Python.1952_pool" />
+      <item itemvalue="Python.1808_Calculator" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1941_seven_princess" />
-        <item itemvalue="Python.2115_honey" />
-        <item itemvalue="Python.2115_honey-01" />
-        <item itemvalue="Python.1244_maximum_reward" />
-        <item itemvalue="Python.1244_maximum_reward-01" />
+        <item itemvalue="Python.1808_Calculator" />
+        <item itemvalue="Python.1952_pool" />
+        <item itemvalue="Python.3234_Scale" />
+        <item itemvalue="Python.subset" />
+        <item itemvalue="Python.2019-08-05_bit" />
       </list>
     </recent_temporary>
   </component>
@@ -526,15 +550,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1832" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="1825" height="1047" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972129" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2506995" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
@@ -542,6 +562,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -631,11 +655,6 @@
     <entry file="file://$PROJECT_DIR$/TIL/03_stack/DFS_problem.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/TIL/03_stack/factorial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TIL/03_stack/stack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -652,13 +671,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TIL/03_stack/operator.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TIL/01_array/2019-08-05_bit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="20" selection-end-line="61" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TIL/01_array/2019-08-05_BitsArray.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -688,10 +700,24 @@
         <state relative-caret-position="-217" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/Personal_learning/baekjoon/1941_seven_princess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Problem/2019-10-02/2115.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="61" column="11" lean-forward="true" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+        <state relative-caret-position="849">
+          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-10-02/2115_honey.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -702,17 +728,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problem/Personal_learning/baekjoon/1941_seven_princess.py">
+    <entry file="file://$PROJECT_DIR$/TIL/2019-08-26_A_class/permutation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="43" />
+        <state relative-caret-position="-76">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problem/2019-10-02/2115_honey.py">
+    <entry file="file://$PROJECT_DIR$/TIL/07_2019-09_23_back/n_queen.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TIL/07_2019-09_23_back/quicksort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        <state relative-caret-position="-179" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TIL/07_2019-09_23_back/perm.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TIL/03_stack/factorial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" selection-start-line="25" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-08/2019-08-07,08/cook_study.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TIL/2019-08-26_A_class/permutation2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TIL/06_/permutation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" lean-forward="true" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TIL/01_array/2019-08-05_bit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="23" selection-start-line="23" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-10-04/3234.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-10-04/1952.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-10-04/3234_Scale.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="20" selection-start-line="20" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="e#138#194#0" />
+            <element signature="e#214#326#0" />
+            <marker date="1570169162975" expanded="true" signature="324:326" ph="..." />
+            <marker date="1570169162975" expanded="true" signature="338:343" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TIL/memo/subset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="72" column="12" lean-forward="true" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <marker date="1570159505927" expanded="true" signature="165:1125" ph="..." />
+            <marker date="1570159505927" expanded="true" signature="165:1157" ph="..." />
+            <marker date="1570159505927" expanded="true" signature="165:1258" ph="..." />
+            <marker date="1570159505927" expanded="true" signature="487:906" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-10-04/1952_pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="40" lean-forward="true" selection-start-column="40" selection-end-column="40" />
+          <folding>
+            <marker date="1570170247160" expanded="true" signature="122:364" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-10-04/1808.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-10-04/1808_Calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <marker date="1570179637645" expanded="true" signature="534:536" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

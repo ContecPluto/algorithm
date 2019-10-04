@@ -55,47 +55,47 @@ N = len(arr)
 arr = 'ABCDEFGHIJ'
 N,R = len(arr), 4
 choose = []
-def comb(k,s):
-    if k == 7:
-        print(choose)
-    else:
-        for i in range(s, N):
-            choose.append(arr[i])
-            comb(k + 1, i)
-            choose.pop()
-comb(0, 0)
+# def comb(k,s):
+#     if k == 7:
+#         print(choose)
+#     else:
+#         for i in range(s, N):
+#             choose.append(arr[i])
+#             comb(k + 1, i)
+#             choose.pop()
+# comb(0, 0)
 
 #메모이제이션 연습
-# def perm(z, n):
-#     global result, memo
-#     if not memo[n-1] and not memo[n]:
-#         perm(z-1, n-1)
-#
-#     if not memo[n] and memo[n-1]:
-#         i = n - 1
-#         for j in range(len(memo[i])):
-#             for k in range(len(memo[i][j]) + 1):
-#                 check = memo[i][j].copy()
-#                 check.insert(k, i)
-#                 # print(check)
-#                 memo[i + 1].append(check)
-#                 # if i == 10:
-#                 #     print(i+1)
-#                 #     print(memo[i+1])
-#
-#     if z == n:
-#         result = memo[z]
-#         return result
-#
+def perm(z, n):
+    global result, memo
+    if not memo[n-1] and not memo[n]:
+        perm(z-1, n-1)
+
+    if not memo[n] and memo[n-1]:
+        i = n - 1
+        for j in range(len(memo[i])):
+            for k in range(len(memo[i][j]) + 1):
+                check = memo[i][j].copy()
+                check.insert(k, i)
+                # print(check)
+                memo[i + 1].append(check)
+                # if i == 10:
+                #     print(i+1)
+                #     print(memo[i+1])
+
+    if z == n:
+        result = memo[z]
+        return result
+
 # log('memo')
-# memo = [[] for _ in range(100)]
-# # memo[1] = [[0, 1, 2], [0, 2, 1], [1, 0, 2], [1, 2, 0], [2, 1, 0], [2, 0, 1]]
-# memo[3] = [[0, 1, 2], [0, 2, 1], [1, 0, 2], [1, 2, 0], [2, 1, 0], [2, 0, 1]]
-# # memo[2] = [[0, 1, 2], [0, 2, 1], [1, 0, 2], [1, 2, 0], [2, 1, 0], [2, 0, 1]]
-#
-#
-# perm(9, 9)
-# print(len(result))
-#
+memo = [[] for _ in range(100)]
+# memo[1] = [[0, 1, 2], [0, 2, 1], [1, 0, 2], [1, 2, 0], [2, 1, 0], [2, 0, 1]]
+memo[3] = [[0, 1, 2], [0, 2, 1], [1, 0, 2], [1, 2, 0], [2, 1, 0], [2, 0, 1]]
+# memo[2] = [[0, 1, 2], [0, 2, 1], [1, 0, 2], [1, 2, 0], [2, 1, 0], [2, 0, 1]]
+
+
+perm(9, 9)
+print(len(result))
+
 # endlog()
 

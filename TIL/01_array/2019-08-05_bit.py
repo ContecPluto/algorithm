@@ -18,7 +18,7 @@
 # print(a&(2<<1))
 
 
-arr = [1,2,3]
+arr = [0,1,2,3]
 N= len(arr)
 
 for subset in range(1 << N):
