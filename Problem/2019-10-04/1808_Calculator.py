@@ -35,13 +35,6 @@ def calculator(s):
                 return
     calculator(s+1)
 
-
-
-
-
-
-
-
 T = int(input())
 for tc in range(1, 30):
     chose = []
