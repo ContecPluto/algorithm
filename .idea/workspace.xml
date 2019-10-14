@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a0d7c36-e2b9-40ca-87e5-b03fdc391cd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Problem/2019-10-11/1232.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem/2019-10-11/1232_Arithmetic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem/2019-10-11/5174.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem/2019-10-11/5174_subtree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem/2019-10-11/5176.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem/2019-10-11/5176_binary_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem/2019-10-11/5177.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem/2019-10-11/5177_binary_heap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem/2019-10-11/5178.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem/2019-10-11/5178_node_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/2019-10-14/5521.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/2019-10-14/5521_birthday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TIL/10_2019-10-14/Dijkstra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TIL/10_2019-10-14/KRUSKAL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TIL/10_2019-10-14/disjoint-sets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TIL/10_2019-10-14/mst_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TIL/10_2019-10-14/prim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TIL/10_2019-10-14/weight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TIL/10_2019-10-14/weighted_graph.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem/2019-10-04/1808_Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problem/2019-10-04/1808_Calculator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,37 +24,38 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="7" />
-          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.2" value="5" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="PNG" value="3" />
-          <entry key="py" value="25" />
-          <entry key="txt" value="19" />
+          <entry key="java" value="1" />
+          <entry key="py" value="33" />
+          <entry key="txt" value="23" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="3" />
-          <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="25" />
+          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="Python" value="31" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="12120" />
-          <entry key="txt" value="76" />
+          <entry key="py" value="15005" />
+          <entry key="txt" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="76" />
-          <entry key="Python" value="12120" />
+          <entry key="PLAIN_TEXT" value="82" />
+          <entry key="Python" value="15001" />
         </counts>
       </usages-collector>
     </session>
@@ -65,38 +64,14 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Problem/2019-10-11/5178_node_sum.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="38">
-                  <caret line="2" selection-start-line="2" selection-end-line="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Problem/2019-10-11/5177_binary_heap.py">
+            <entry file="file://$PROJECT_DIR$/Problem/2019-10-14/5521_birthday.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="133">
-                  <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Problem/2019-10-11/5177.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="19">
-                  <caret line="1" selection-start-line="1" selection-end-line="6" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Problem/2019-10-11/1232_Arithmetic.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-114">
-                  <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+                <state relative-caret-position="247">
+                  <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+                  <folding>
+                    <marker date="1571038675321" expanded="true" signature="86:441" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -104,12 +79,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Problem/2019-10-11/1232.txt">
+            <entry file="file://$PROJECT_DIR$/Problem/2019-10-14/5521.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="494">
-                  <caret line="113" column="4" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="4" />
+                <state relative-caret-position="209">
+                  <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
@@ -181,6 +156,15 @@
         <option value="$PROJECT_DIR$/Problem/2019-10-11/1232.txt" />
         <option value="$PROJECT_DIR$/Problem/2019-10-11/1232_Arithmetic.py" />
         <option value="$PROJECT_DIR$/Problem/2019-10-11/5177_binary_heap.py" />
+        <option value="$PROJECT_DIR$/TIL/10_2019-10-14/disjoint-sets.py" />
+        <option value="$PROJECT_DIR$/TIL/10_2019-10-14/mst_input.txt" />
+        <option value="$PROJECT_DIR$/TIL/10_2019-10-14/KRUSKAL.py" />
+        <option value="$PROJECT_DIR$/TIL/10_2019-10-14/prim.py" />
+        <option value="$PROJECT_DIR$/TIL/10_2019-10-14/test.py" />
+        <option value="$PROJECT_DIR$/TIL/10_2019-10-14/weighted_graph.txt" />
+        <option value="$PROJECT_DIR$/TIL/10_2019-10-14/weight.py" />
+        <option value="$PROJECT_DIR$/TIL/10_2019-10-14/Dijkstra.py" />
+        <option value="$PROJECT_DIR$/Problem/2019-10-14/5521_birthday.py" />
       </list>
     </option>
   </component>
@@ -211,18 +195,7 @@
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="Problem" type="462c0819:PsiDirectoryNode" />
-              <item name="2019-10-11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="TIL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="TIL" type="462c0819:PsiDirectoryNode" />
-              <item name="2019-08-26_A_class" type="462c0819:PsiDirectoryNode" />
+              <item name="2019-10-14" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -244,19 +217,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-11" />
-      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-10" />
-      <recent name="C:\Users\student\Desktop\python\algorithm\TIL\09_2019-10-10_Tree" />
-      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-04" />
-      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-02" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-02" />
       <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-01" />
       <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-09-30" />
       <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-09-23" />
       <recent name="C:\Users\student\Desktop\python\algorithm\Problem\Personal_learning\baekjoon" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-14" />
+      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-11" />
+      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-10" />
+      <recent name="C:\Users\student\Desktop\python\algorithm\TIL\09_2019-10-10_Tree" />
+      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-04" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -271,28 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.5177_binary_heap">
-    <configuration name="1232_Arithmetic" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-10-11" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-10-11/1232_Arithmetic.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.5521_birthday">
     <configuration name="14501_Leave" type="PythonConfigurationType" factoryName="Python">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -381,7 +333,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5174_subtree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5521_birthday" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -389,11 +341,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-10-11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-10-14" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-10-11/5174_subtree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-10-14/5521_birthday.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -402,7 +354,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5176_binary_search" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Dijkstra" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -410,11 +362,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-10-11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TIL/10_2019-10-14" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-10-11/5176_binary_search.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TIL/10_2019-10-14/Dijkstra.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -423,7 +375,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5177_binary_heap" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="KRUSKAL" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -431,11 +383,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-10-11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TIL/10_2019-10-14" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-10-11/5177_binary_heap.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TIL/10_2019-10-14/KRUSKAL.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -444,7 +396,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5178_node_sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="prim" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -452,11 +404,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-10-11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TIL/10_2019-10-14" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-10-11/5178_node_sum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TIL/10_2019-10-14/prim.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="weight" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TIL/10_2019-10-14" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TIL/10_2019-10-14/weight.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -470,19 +443,19 @@
       <item itemvalue="Python.2178_maze" />
       <item itemvalue="Python.2205_break_wall_maze_DFS" />
       <item itemvalue="Python.4831_bus" />
-      <item itemvalue="Python.5174_subtree" />
-      <item itemvalue="Python.5176_binary_search" />
-      <item itemvalue="Python.5177_binary_heap" />
-      <item itemvalue="Python.5178_node_sum" />
-      <item itemvalue="Python.1232_Arithmetic" />
+      <item itemvalue="Python.KRUSKAL" />
+      <item itemvalue="Python.prim" />
+      <item itemvalue="Python.weight" />
+      <item itemvalue="Python.Dijkstra" />
+      <item itemvalue="Python.5521_birthday" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.5177_binary_heap" />
-        <item itemvalue="Python.1232_Arithmetic" />
-        <item itemvalue="Python.5178_node_sum" />
-        <item itemvalue="Python.5176_binary_search" />
-        <item itemvalue="Python.5174_subtree" />
+        <item itemvalue="Python.5521_birthday" />
+        <item itemvalue="Python.Dijkstra" />
+        <item itemvalue="Python.weight" />
+        <item itemvalue="Python.prim" />
+        <item itemvalue="Python.KRUSKAL" />
       </list>
     </recent_temporary>
   </component>
@@ -525,13 +498,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1826" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2645414" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32785088" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32785088" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -738,10 +712,10 @@
     <entry file="file://$PROJECT_DIR$/Problem/2019-10-11/5176_binary_search.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problem/2019-10-11/1232.txt">
+    <entry file="file://$PROJECT_DIR$/Problem/2019-10-11/5177_binary_heap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="113" column="4" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="4" />
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -752,13 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problem/2019-10-11/1232_Arithmetic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Problem/2019-10-11/5177.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -766,10 +733,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problem/2019-10-11/5177_binary_heap.py">
+    <entry file="file://$PROJECT_DIR$/Problem/2019-10-11/1232_Arithmetic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-10-11/1232.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="113" column="4" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TIL/10_2019-10-14/KRUSKAL.py.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TIL/10_2019-10-14/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TIL/10_2019-10-14/KRUSKAL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TIL/10_2019-10-14/prim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TIL/10_2019-10-14/weight.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <caret line="7" column="23" lean-forward="true" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TIL/10_2019-10-14/Dijkstra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TIL/10_2019-10-14/weighted_graph.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TIL/10_2019-10-14/mst_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TIL/10_2019-10-14/disjoint-sets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-10-14/5521.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem/2019-10-14/5521_birthday.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <marker date="1571038675321" expanded="true" signature="86:441" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
