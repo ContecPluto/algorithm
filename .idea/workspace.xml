@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a0d7c36-e2b9-40ca-87e5-b03fdc391cd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D3/1208.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D3/1208_Flatten.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D3/1208_Flatten_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D3/2817.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D3/2817_subset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D3/2817_subset_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D3/1226.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D3/1226_maze.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,19 +38,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D3" />
-      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-15" />
-      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-14" />
-      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-11" />
-      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-10" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D3" />
       <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-15" />
       <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-02" />
       <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-01" />
       <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-09-30" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D3" />
+      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-15" />
+      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-14" />
+      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-11" />
+      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-10" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -69,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2817_subset_02">
+  <component name="RunManager" selected="Python.1226_maze">
     <configuration name="1208_Flatten" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,6 +100,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D3/1208_Flatten_02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1226_maze" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D3/1226_maze.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,27 +187,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/A_type_Study/2019-08-25/2205_break_wall_maze_DFS.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2806_N_queen" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D3/2806_N_queen.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,19 +264,19 @@
       <item itemvalue="Python.2178_maze" />
       <item itemvalue="Python.2205_break_wall_maze_DFS" />
       <item itemvalue="Python.4831_bus" />
-      <item itemvalue="Python.2806_N_queen" />
       <item itemvalue="Python.1208_Flatten" />
       <item itemvalue="Python.1208_Flatten_02" />
       <item itemvalue="Python.2817_subset" />
       <item itemvalue="Python.2817_subset_02" />
+      <item itemvalue="Python.1226_maze" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1226_maze" />
         <item itemvalue="Python.2817_subset_02" />
         <item itemvalue="Python.2817_subset" />
         <item itemvalue="Python.1208_Flatten_02" />
         <item itemvalue="Python.1208_Flatten" />
-        <item itemvalue="Python.2806_N_queen" />
       </list>
     </recent_temporary>
   </component>
