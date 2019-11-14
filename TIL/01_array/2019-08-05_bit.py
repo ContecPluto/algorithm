@@ -45,8 +45,8 @@ for subset in range(1 << N):
 # N = len(arr)
 # count = 0
 # a_sum = []
-
 #
+# #
 # for subset in range(1 << N):
 #     for j in range(N):
 #         if subset & (1<<j):
