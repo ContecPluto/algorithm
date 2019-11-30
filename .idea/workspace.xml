@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a0d7c36-e2b9-40ca-87e5-b03fdc391cd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D4/1249.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D4/1249_Supply.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D4/1824.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D4/1824_programing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D4/6855.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D4/6855_Electricity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem/2019-11-15/5653.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Problem/2019-11-15/5653.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem/2019-11-15/5653_stemCells.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problem/2019-11-15/5653_stemCells.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,19 +40,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D3" />
-      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-15" />
-      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-02" />
-      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-01" />
-      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-09-30" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D4" />
       <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-11-15" />
       <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-11-14" />
       <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-11-13" />
       <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-11-12" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D3" />
+      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-15" />
+      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-02" />
+      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-01" />
+      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-09-30" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -69,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1249_Supply">
+  <component name="RunManager" selected="Python.1824_programing">
     <configuration name="1249_Supply" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2105_cafe" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1824_programing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,11 +119,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-11-15" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-11-15/2105_cafe.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D4/1824_programing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,7 +240,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5656_block" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="6855_Electricity" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -250,11 +248,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/2019-11-14" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/2019-11-14/5656_block.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D4/6855_Electricity.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,19 +266,19 @@
       <item itemvalue="Python.2178_maze" />
       <item itemvalue="Python.2205_break_wall_maze_DFS" />
       <item itemvalue="Python.4831_bus" />
-      <item itemvalue="Python.5656_block" />
-      <item itemvalue="Python.2105_cafe" />
       <item itemvalue="Python.4013_magnet" />
       <item itemvalue="Python.5653_stemCells" />
       <item itemvalue="Python.1249_Supply" />
+      <item itemvalue="Python.6855_Electricity" />
+      <item itemvalue="Python.1824_programing" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1824_programing" />
+        <item itemvalue="Python.6855_Electricity" />
         <item itemvalue="Python.1249_Supply" />
         <item itemvalue="Python.5653_stemCells" />
         <item itemvalue="Python.4013_magnet" />
-        <item itemvalue="Python.2105_cafe" />
-        <item itemvalue="Python.5656_block" />
       </list>
     </recent_temporary>
   </component>
