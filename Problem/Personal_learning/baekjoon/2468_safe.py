@@ -1,4 +1,3 @@
-import sys; sys.stdin = open('17822.txt', 'r')
 from collections import deque
 
 
@@ -61,6 +60,3 @@ for a in spin:
 for sum_total in arr:
     total += sum(sum_total)
 print(total)
-
-
-
