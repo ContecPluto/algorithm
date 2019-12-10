@@ -6,18 +6,19 @@ def move(history, time, answer, root, clear):
     if time == 10:
         ans = max(ans, answer)
         return
+
     position = [history[0][-1], history[1][-1], history[2][-1], history[3][-1]]
     for i in range(4):
         check = history[i][-1] + arr[time]
         flag = 0
         if clear[i] == 1: continue
-        for j in range(4):
-            if position[j] == 0: continue
-            if i == j: continue
-            if clear[j] == 1: continue
-            if check == position[j]:
-                flag = 1
-                break
+        if check < arrive[root[i]]:
+            for j in range(4):
+                if clear[j]: continue
+                if i == j: continue
+                if value[root[i]][check] == value[root[j]][position[j]]:
+                    flag = 1
+                    break
         if flag == 1: continue
         change = 0
         if root[i] == 0 and check % 5 == 0 and check != 20:
@@ -31,11 +32,9 @@ def move(history, time, answer, root, clear):
             clear[i] = 0
         else:
             move(history, time + 1, answer + value[root[i]][check], root, clear)
-
         history[i].pop()
         if change == 1:
             root[i] = 0
-
         if time == 0:
             return
 
