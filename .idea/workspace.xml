@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a0d7c36-e2b9-40ca-87e5-b03fdc391cd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D5/1265.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D5/1265_talent_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/baekjoon/15486.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/baekjoon/15486_Leave_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1265_talent_2">
+  <component name="RunManager" selected="Python.15486_Leave_2">
     <configuration name="1265_talent_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="17822_circle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="15486_Leave_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,7 +121,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/Personal_learning/baekjoon/17822_circle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/Personal_learning/baekjoon/15486_Leave_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,19 +264,19 @@
       <item itemvalue="Python.2178_maze" />
       <item itemvalue="Python.2205_break_wall_maze_DFS" />
       <item itemvalue="Python.4831_bus" />
-      <item itemvalue="Python.17822_circle" />
       <item itemvalue="Python.17825_dice" />
       <item itemvalue="Python.2468_safe" />
       <item itemvalue="Python.6959_alice" />
       <item itemvalue="Python.1265_talent_2" />
+      <item itemvalue="Python.15486_Leave_2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.15486_Leave_2" />
         <item itemvalue="Python.1265_talent_2" />
         <item itemvalue="Python.6959_alice" />
         <item itemvalue="Python.17825_dice" />
         <item itemvalue="Python.2468_safe" />
-        <item itemvalue="Python.17822_circle" />
       </list>
     </recent_temporary>
   </component>
