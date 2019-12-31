@@ -22,7 +22,7 @@ def move(s):
         if maping.get((tx,ty)) == None:
             maping[(tx,ty)] = 1
         else:
-            
+            pass
         # move((tx,ty))
 
 T = int(input())
