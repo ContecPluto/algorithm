@@ -10,7 +10,7 @@ for tc in range(1, T+1):
     arr = [[0] * N for _ in range(M)]
     seed = []
     for i in range(M):
-        for j in range(N)∑
+        for j in range(N):
             for k in range(4):
                 tx = i + dx[k]
                 ty = j + dy[k]
