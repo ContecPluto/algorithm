@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a0d7c36-e2b9-40ca-87e5-b03fdc391cd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/baekjoon/2231.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/baekjoon/2231_partsum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D2/1954.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D2/1954_snail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/baekjoon/1436.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/baekjoon/1436_movie.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,19 +40,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D2" />
+      <recent name="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D4" />
+      <recent name="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D5" />
+      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-11-15" />
+      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-11-14" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D3" />
       <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-15" />
       <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-02" />
       <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-10-01" />
       <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-09-30" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D4" />
-      <recent name="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D2" />
-      <recent name="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D5" />
-      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-11-15" />
-      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-11-14" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -65,7 +67,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2231_partsum">
+  <component name="RunManager" selected="Python.1436_movie">
+    <configuration name="1436_movie" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/Personal_learning/baekjoon" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/Personal_learning/baekjoon/1436_movie.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="14501_Leave" type="PythonConfigurationType" factoryName="Python">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="16637_Calculation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1954_snail" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,11 +140,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/Personal_learning/baekjoon" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/Personal_learning/baekjoon/16637_Calculation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D2/1954_snail.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,45 +261,24 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="9282_choco" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D4/9282_choco.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.14501_Leave" />
       <item itemvalue="Python.2178_maze" />
       <item itemvalue="Python.2205_break_wall_maze_DFS" />
       <item itemvalue="Python.4831_bus" />
-      <item itemvalue="Python.16637_Calculation" />
-      <item itemvalue="Python.9282_choco" />
       <item itemvalue="Python.15666_N&amp;M12" />
       <item itemvalue="Python.5213_Jinsu" />
       <item itemvalue="Python.2231_partsum" />
+      <item itemvalue="Python.1954_snail" />
+      <item itemvalue="Python.1436_movie" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1436_movie" />
+        <item itemvalue="Python.1954_snail" />
         <item itemvalue="Python.2231_partsum" />
         <item itemvalue="Python.5213_Jinsu" />
         <item itemvalue="Python.15666_N&amp;M12" />
-        <item itemvalue="Python.9282_choco" />
-        <item itemvalue="Python.16637_Calculation" />
       </list>
     </recent_temporary>
   </component>
