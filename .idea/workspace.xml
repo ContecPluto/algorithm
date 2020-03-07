@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a0d7c36-e2b9-40ca-87e5-b03fdc391cd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D2/1954.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D2/1954_snail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/baekjoon/1436.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/baekjoon/1436_movie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D4/3459.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D4/3459_winner.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/student/Desktop/python/algorithm/Problem/2019-11-15/4013_magnet.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D4" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -41,11 +39,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D2" />
       <recent name="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D4" />
+      <recent name="$PROJECT_DIR$/Problem/Personal_learning/SW_expert" />
+      <recent name="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D2" />
       <recent name="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D5" />
       <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-11-15" />
-      <recent name="C:\Users\student\Desktop\python\algorithm\Problem\2019-11-14" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D3" />
@@ -67,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1436_movie">
+  <component name="RunManager" selected="Python.3459_winner">
     <configuration name="1436_movie" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,27 +101,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/A_type_Study/2019-09-02/14501_Leave.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="15666_N&amp;M12" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/Personal_learning/baekjoon" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/Personal_learning/baekjoon/15666_N&amp;M12.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,6 +195,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="3459_winner" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/Personal_learning/SW_expert/D4/3459_winner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="4831_bus" type="PythonConfigurationType" factoryName="Python">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -266,19 +264,19 @@
       <item itemvalue="Python.2178_maze" />
       <item itemvalue="Python.2205_break_wall_maze_DFS" />
       <item itemvalue="Python.4831_bus" />
-      <item itemvalue="Python.15666_N&amp;M12" />
       <item itemvalue="Python.5213_Jinsu" />
       <item itemvalue="Python.2231_partsum" />
       <item itemvalue="Python.1954_snail" />
       <item itemvalue="Python.1436_movie" />
+      <item itemvalue="Python.3459_winner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.3459_winner" />
         <item itemvalue="Python.1436_movie" />
         <item itemvalue="Python.1954_snail" />
         <item itemvalue="Python.2231_partsum" />
         <item itemvalue="Python.5213_Jinsu" />
-        <item itemvalue="Python.15666_N&amp;M12" />
       </list>
     </recent_temporary>
   </component>
@@ -309,15 +307,6 @@
       <workItem from="1568894919450" duration="5475000" />
     </task>
     <servers />
-  </component>
-  <component name="TodoView" selected-index="3">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
