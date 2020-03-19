@@ -1,7 +1,7 @@
 import sys; sys.stdin = open('1006.txt', 'r')
 
 dx = [0, -1, 0]
-dy = [-1, 0, 1]
+dy = [1, 0, -1]
 
 def DFS(s, total):
     x, y = s
@@ -27,11 +27,10 @@ for tc in range(int(sys.stdin.readline())):
     arr = [list(map(int, sys.stdin.readline().split())) for _ in range(2)]
     visit = [[False] * N for _ in range(2)]
     result = 0
-
-    for i in range(2):
-        for j in range(N):
-            if visit[i][j]: continue
-            DFS([i, j], arr[i][j])
-            result += 1
-            print(visit)
+    for a in range(3):
+        for i in range(2):
+            for j in range(N):
+                if visit[i][j]: continue
+                DFS([i, j], arr[i][j])
+                result += 1
     sys.stdout.write(str(result)+'\n')
