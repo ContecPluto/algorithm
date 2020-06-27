@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/7568
+
 N = int(input())
 humans = []
 for val in range(N):
