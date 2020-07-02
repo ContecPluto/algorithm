@@ -57,7 +57,6 @@ def check_sudoku(index):
             check_sudoku(index + 1)
         
         
-
 sudoku = [list(map(int, input().split(' '))) for _ in range(9)]
 zeros = []
 sudoku_count_x = [[0]* 10 for _ in range(9)]
