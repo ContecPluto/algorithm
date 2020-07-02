@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/10872
+
 def fibo(n):
     if n < len(arr):
         print(arr[n])
