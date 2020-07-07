@@ -20,3 +20,5 @@ min_val = 0xffffffff
 opers = list(map(int, input().split(' ')))
 # print(opers[0] - 1)
 calculation(1, numbers[0], opers[0], opers[1], opers[2], opers[3])
+print(max_val)
+print(min_val)
