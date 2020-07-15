@@ -43,12 +43,12 @@ def DP(n):
         arr = DP(n-1)
         for x in range(10):
             if x == 0:
-                result[n][x + 1] = 1 * arr[x] 
+                result[n][x+1] = 1 * arr[x] 
             elif x == 9:
-                result[n][x - 1] = 1 * arr[x]
+                result[n][x-1] = 1 * arr[x]
             else:
-                result[n][x + 1] = 1 * arr[x]
-                result[n][x - 1] = 1 * arr[x]
+                result[n][x+1] = 1 * arr[x]
+                result[n][x-1] = 1 * arr[x]
         return result[n]
 
 
@@ -56,4 +56,4 @@ N = int(input())
 result = {1: [0] * 10}
 for i in range(1, 10):
     result[1][i] = 1
-print(sum(DP(N))%1000000000)
+print(sum(DP(N)) % 1000000000)
