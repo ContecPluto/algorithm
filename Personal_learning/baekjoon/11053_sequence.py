@@ -1,14 +1,14 @@
 from sys import stdin
 
 N = int(stdin.readline())
-arr = list(map(int, stdin.readline().split()))
-sequence = [0] * N
-sequence[0] = 1
+sequence = list(map(int, stdin.readline().split()))
+dp = [0] * N
+dp[0] = 1
 
 for i in range(1, N):
     for j in range(i):
-        if arr[j] < arr[i]:
-            sequence[i] = max(sequence[i], sequence[j])
+        if sequence[j] < sequence[i]:
+            dp[i] = max(dp[i], dp[j])
     else:
-        sequence[i] += 1
-print(max(sequence))
+        dp[i] += 1
+print(max(dp))
