@@ -9,7 +9,7 @@ for number in range(N, M + 1):
                 break
         else:
             result.append(number)
-            
+
 if result:
     print(sum(result))
     print(result[0])
