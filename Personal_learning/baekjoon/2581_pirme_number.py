@@ -1,18 +1,14 @@
-from math import sqrt
+from sys import stdin
+input = stdin.readline
 
 N = int(input())
 M = int(input())
-if N == 1:
-    N += 1
 
-result = []
-for number in range(N, M + 1):
-    if number % 2 or number == 2:
-        for i in range(3, int(sqrt(number)) + 1, 2):
-            if not number % i:
-                break
-        else:
-            result.append(number)
+result = [False, False, True, True] + [False, True] * (M // 2)
+for number in range(3, int(M ** 0.5) + 1, 2):
+    if result[number]:
+        result[number*2::number] = [False] * len(result[number*2::number])
+result = [i for i in range(N, M+1) if result[i]]
 
 if result:
     print(sum(result))
