@@ -1,4 +1,5 @@
 import sys; sys.stdin = open('15486.txt', 'r')
+input = sys.stdin.readlines
 
 N = int(input())
 consulting = [list(map(int, input().split())) for _ in range(N)]
