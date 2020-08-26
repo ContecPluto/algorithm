@@ -1,5 +1,5 @@
 from sys import stdin
-from collections import deque
+from heapq import heappop, heappush
 input = stdin.readline
 
 def hole_check(ax, ay):
@@ -7,25 +7,25 @@ def hole_check(ax, ay):
         tax = ax + adx
         tay = ay + ady
         if 0 <= tax < N and 0 <= tay < M and chess[tax][tay] == -1:
-            air_check(tax, tay)
+            air_check(ax, ay)
             break
 
 def air_check(ai, aj):
-    air_index = deque([[ai, aj]])
+    chess[ai][aj] = -1
+    air_index = [[ai, aj]]
     while air_index:
-        ax, ay = air_index.popleft()
+        ax, ay = heappop(air_index)
         for adx, ady in D:
             tax = ax + adx
             tay = ay + ady
             if 0 <= tax < N and 0 <= tay < M and chess[tax][tay] == 0:
                 chess[tax][tay] = -1
-                air_index.append([tax, tay])
+                heappush(air_index, [tax, tay])
 
 D = ((0, -1), (0, 1), (1, 0), (-1, 0))
 N, M = map(int, input().split())
 chess = [list(map(int, input().split())) for _ in range(N)]
-index = [[i, j] for i in range(N) for j in range(M) if chess[i][j] == 1]
-index = deque(index)
+index = [(i, j) for i in range(N) for j in range(M) if chess[i][j] == 1]
 cnt = len(index)
 result = 0
 air_check(0, 0)
@@ -34,7 +34,7 @@ while index:
     in_chess = []
     is_hole = []
     while index:
-        x, y = index.popleft()
+        x, y = heappop(index)
         is_air = False
         for dx, dy in D:
             tx = x + dx
@@ -55,14 +55,12 @@ while index:
         is_hole.append([i, j])
 
     for i, j in is_hole:
-        air_check(i, j)
-    index = deque(in_chess)
+        hole_check(i, j)
+    index = in_chess[::]
 
     if len(in_chess):
         cnt = len(in_chess)
     result += 1
 
-    # print(*chess, sep="\n", end="\n\n")
-    
 print(result)
 print(cnt)
