@@ -1,5 +1,4 @@
 def solution(numbers):
-    max_num = len(str(max(numbers)))
     numbers = sorted(numbers, reverse=True, key = lambda x : str(x)*3)
     return str(int("".join(map(str, numbers))))
 
