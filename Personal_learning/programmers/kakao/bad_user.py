@@ -19,13 +19,9 @@ def DFS(user_id, banned_id, s, arr, indices):
                 arr.pop()
 
 
-
 def solution(user_id, banned_id):
-    global answer
     indices = [[j for j in range(len(banned_id[s])) if banned_id[s][j] == "*"] for s in range(len(banned_id))]
     banned_id = list(map(list, banned_id))
-    # user_id = list(map(list, user_id))
-    answer = set()
     DFS(user_id, banned_id, 0, [], indices)
     return len(answer)
 
