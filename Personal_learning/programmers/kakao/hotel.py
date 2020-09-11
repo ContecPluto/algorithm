@@ -11,7 +11,7 @@ def solution(k, room_number):
 
         answer.append(num)
         num += 1
-
+    
         for room in visit:
             room_dict[room] = num
     return answer
