@@ -37,7 +37,7 @@ while idx + len(find) <= len(words):
         arr.append(idx+1)
         idx = idx - pi[i] + i
     print(idx, i, pi[i])
-
+print(words[11])
 print(len(arr))
 print(*arr, sep=' ')
 
