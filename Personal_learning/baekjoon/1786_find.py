@@ -1,43 +1,30 @@
-words = input()
-find = input()
-arr = []
+words = input().rstrip()
+find = input().rstrip()
 idx = 0
-cnt = 0
-n = len(find) - 1
+n, m = len(find), len(words)
 pi = [0] * len(find) 
-for i in range(2, len(find)):
-    a, b = "", ""
-    cnt = 0
-    for j in range(i//2 + 1):
-        if j == i - j: continue
-        a += find[j]
-        b = find[i-j] + b
+arr = []
 
-    suffix = []
-    prefix = []
-    for x in range(len(a)):
-        suffix.append(a[x])
-        prefix.append(b[x])
-        for y in range(x+1 , len(a)):
-            suffix.append(suffix[-1] + a[y])
-            prefix.append(prefix[-1] + b[y])
+j=0
+for i in range(1, n):
+    while(j > 0 and find[i] != find[j]):
+        j = pi[j - 1]
+    if(find[i] == find[j]):
+        j+=1
+        pi[i] = j
 
-    for x in suffix:
-        for y in prefix:
-            if x == y:
-                cnt = max(len(x), cnt)
-    pi[i] = cnt
+cnt = 0
+while idx + n <= m:
+    if cnt < n and words[idx+cnt] == find[cnt]: 
+        cnt += 1
+        if cnt == n: 
+            arr.append(idx + 1) 
+    else: 
+        if cnt == 0: 
+            idx+=1 
+        else: 
+            idx += cnt-pi[cnt-1] 
+            cnt = pi[cnt-1]
         
-while idx + len(find) <= len(words):
-    for i in range(len(find)):
-        if words[i+idx] != find[i]:
-            idx = idx - pi[i] + i + 1
-            break 
-    else:
-        arr.append(idx+1)
-        idx = idx - pi[i] + i
-    print(idx, i, pi[i])
-print(words[11])
 print(len(arr))
 print(*arr, sep=' ')
-
