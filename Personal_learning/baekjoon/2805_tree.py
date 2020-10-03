@@ -1,19 +1,23 @@
-N, M = map(int, input().split())
-trees = list(map(int, input().split()))
+from sys import stdin
+from collections import Counter
+input = stdin.readline
 
-start = 0
-end = max(trees)
+N, M = map(int, input().split())
+trees = Counter(map(int, input().split()))
+
+start = 1
+end = max(trees.keys())
 
 while start <= end:
     mid = (start+end) // 2
-    cnt = 0
-    for tree in trees:
+    cut = 0
+    for tree, cnt in trees.items():
         if tree > mid:
-            cnt += tree - mid
+            cut += (tree - mid) * cnt
 
-    if M <= cnt:
+    if M <= cut:
         start = mid + 1
-    elif M > cnt:
+    elif M > cut:
         end = mid - 1
-        
+    
 print(end)
