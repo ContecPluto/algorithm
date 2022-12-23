@@ -1,8 +1,12 @@
 # https://www.acmicpc.net/problem/15552
-import sys; sys.stdin = open("15552.txt", "r")
+import sys
+sys.stdin = open("15552.txt", "r")
+input = sys.stdin
 
-T = int(input())
+T = int(input.readline())
 
-for i in sys.stdin.readlines():
-    A, B = map(int, i.rstrip("\n").split(" "))
-    print(A + B)
+result = []
+for i in input.readlines():
+    result.append(f"{sum(map(int, i.split(' ')))}")
+
+sys.stdout.write("\n".join(result))
